@@ -1,0 +1,321 @@
+<!-- Events -->
+
+	<event name="StaticBeacon1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon3">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon4">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon5">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon6">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon7">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon8">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon9">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon10">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon11">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon12">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon13">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon14">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	<event name="StaticBeacon15">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+	
+	
+	<!-- event spawns -->
+	
+	<event name="StaticBeacon1">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="5533.150391" y="111.201942" z="2586.043457" a="0.0" /><!-- balota apartment -->
+	</event>
+	<event name="StaticBeacon2">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="5489.358398" y="111.344749" z="2627.704590" a="0.0" /><!-- balota apartment -->
+	</event>
+	<event name="StaticBeacon3">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="5455.357910" y="110.599594" z="2656.895020" a="0.0" /><!-- balota apartment -->
+	</event>
+	<event name="StaticBeacon4">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="5418.160645" y="107.201355" z="2688.081055" a="0.0" /><!-- balota apartment -->
+	</event>
+	<event name="StaticBeacon5">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="5384.300293" y="104.533340" z="2722.751221" a="0.0" /><!-- balota apartment -->
+	</event>
+	<event name="StaticBeacon6">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="12204.927734" y="68.080429" z="14286.560547" a="0.0" /><!-- NOVO INDUSTRIAL --> 
+	</event>
+	<event name="StaticBeacon7">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="12158.411133" y="78.154808" z="14282.716797" a="0.0" /><!-- NOVO INDUSTRIAL -->
+	</event>
+	<event name="StaticBeacon8">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="8006.776367" y="132.011993" z="12600.706055" a="0.0" /><!-- SEVEROGRAD -->
+	</event>
+	<event name="StaticBeacon9">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="4023.570557" y="378.400269" z="11887.444336" a="0.0" /><!-- NWAF NORTH -->
+	</event>
+	<event name="StaticBeacon10">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="4921.848145" y="341.900269" z="9970.106445" a="0.0" /><!-- NWAF CENTER -->
+	</event>
+	<event name="StaticBeacon11">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="1394.689087" y="328.226471" z="9287.705078" a="0.0" /><!-- KRONA CASTLE -->
+	</event>
+	<event name="StaticBeacon12">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="1829.249023" y="6.990258" z="2094.976318" a="0.0" /><!-- KAMENKA -->
+	</event>
+	<event name="StaticBeacon13">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="2531.404053" y="37.151451" z="1893.052246" a="0.0" /><!-- PRISON BEACH -->
+	</event>
+	<event name="StaticBeacon14">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="6267.967285" y="9.987564" z="2021.785156" a="0.0" /><!-- CHERNO MINI ISLAND -->
+	</event>
+	<event name="StaticBeacon15">
+	<zone smin="1" smax="1" dmin="0" dmax="0" r="200" />
+	<pos x="6885.910645" y="84.788948" z="3421.324951" a="0.0" /><!-- CHERNO APT -->
+	</event>

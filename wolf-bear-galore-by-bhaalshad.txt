@@ -1,0 +1,86 @@
+Wolf And Bear settings
+
+events.xml
+    <event name="AnimalBear">
+        <nominal>200</nominal>
+        <min>200</min>
+        <max>200</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusArctos"/>
+        </children>
+    </event>
+        <event name="AnimalWolf">
+        <nominal>200</nominal>
+        <min>200</min>
+        <max>200</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_CanisLupus_White"/>
+        </children>
+    </event>
+	
+types.xml
+    <type name="Animal_UrsusArctos">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>200</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="dontuse" />
+    <usage name="DoNotUse" />
+    </type>	
+  <type name="Animal_CanisLupus_White">
+    <nominal>200</nominal>
+    <lifetime>1800</lifetime>
+    <restock>200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="dontuse" />
+    <usage name="DoNotUse" />	
+  </type>
+
+bear_territories.xml
+    <territory color="4294923520">
+        <zone name="Graze" smin="0" smax="0" dmin="1" dmax="1" x="12031.5" z="12552.3" r="100"/>
+    </territory>
+all zones in file are set like this with the dmin and dmax set to 1
+
+wolf_territories.xml
+    <territory color="4291611852">
+       <zone name="HuntingGround" smin="0" smax="0" dmin="0" dmax="0" x="12315.5" z="12863" r="300" d="2"/>
+    </territory>
+all zones in file are set like this with the dmin and dmax set to 0	
+
+cfglimitsdefinition.xml
+    <category name="dontuse" />
+    <usage name="DoNotUse" />
+	
+add those so you dont spawn in animals as loot lol
+
+	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at http://bhaalshad.com 
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)

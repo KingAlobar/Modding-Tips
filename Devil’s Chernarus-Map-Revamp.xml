@@ -1,0 +1,973 @@
+
+****** install notes ******
+leave all files as they are to make sure you have no problems when installing!.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+Devil’s Chernarus Map Revamp Mod 
+
+Included
+
+12x Plane Wrecks
+9x Heli Wrecks
+3x Train Wrecks 
+2x Ship Wrecks
+1x Convoy Wreck
+1x Road Block
+——————————
+Modded Areas 
+1.Krasnostav Airstrip 
+2.North West Air Field
+3.Balota Airstrip 
+4.Various Coastal Sections
+
+Disclaimer:
+
+event spawns are and can be temperamental!. All of my code has been tried and tested before being released!
+
+****************************************
+<!-- events.xml Replace Entry -->
+    <event name="StaticHeliCrash2">
+        <nominal>9</nominal>
+        <min>9</min>
+        <max>9</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="20" lootmin="10" max="4" min="4" type="Wreck_Mi8"/>
+            <child lootmax="20" lootmin="10" max="5" min="5" type="Wreck_UH1Y"/>
+        </children>
+    </event>
+
+<!-- events.xml New Entry -->
+
+<!-- n.w.a.f-->
+    <event name="StaticPlaneNW">
+        <nominal>12</nominal>
+        <min>12</min>
+        <max>12</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>10</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="12" min="12" type="Land_Wreck_C130J"/>
+        </children>
+    </event>
+    <event name="StaticBarracks1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Tisy_Barracks"/>
+        </children>
+    </event>
+<!-- right of atc -->
+    <event name="StaticHangar1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Airfield_Hangar_Green"/>
+        </children>
+    </event>
+    <event name="StaticRadar1">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Tisy_RadarB_Base"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Tisy_RadarB_Antenna"/>
+        </children>
+    </event>
+<!-- end-->
+    <event name="StaticBarracks2">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="Land_Mil_Barracks2"/>
+        </children>
+    </event>
+    <event name="StaticCamonet1">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="Land_Mil_CamoNet_Roof_east"/>
+        </children>
+    </event>
+    <event name="StaticRadar2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Airfield_Radar_Tall"/>
+        </children>
+    </event>
+<!-- END -->
+    <event name="StaticBarracks3">
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="4" min="4" type="Land_Mil_Barracks2"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- train crash ratnoe -->
+    <event name="Statictraincrash1">
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <secondary>InfectedIndustrial</secondary>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Train_742_Red"/>
+            <child lootmax="0" lootmin="0" max="3" min="3" type="Land_Train_Wagon_Box"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- severograd -->
+    <event name="Statictraincrash2">
+        <nominal>7</nominal>
+        <min>7</min>
+        <max>7</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <secondary>InfectedIndustrial</secondary>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="7" min="7" type="Land_Train_Wagon_Box"/>
+        </children>
+    </event>
+    <event name="Statictraincrash2.5">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Train_742_Blue"/>
+        </children>
+    </event>
+    <event name="Statictraincrash3">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="6" lootmin="4" max="1" min="1" type="Land_Train_742_Blue"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- boat wrecks -->
+    <event name="Staticboatwreck1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Ship_Big_FrontA"/>
+        </children>
+    </event>
+    <event name="Staticboatwreck1_5">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Ship_Big_BackA"/>
+        </children>
+    </event>
+    <event name="StaticboatwreckContainers">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>3</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Land_Container_1Aoh"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Container_1Bo"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- skalisty -->
+    <event name="Staticboatwreck2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Ship_Big_FrontB"/>
+        </children>
+    </event>
+    <event name="Staticboatwreck2_5">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Ship_Big_BackB"/>
+        </children>
+    </event>
+    <event name="StaticboatwreckContainers2">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>3</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="3" min="3" type="Land_Container_1Mo"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- N.E.A.F -->
+    <event name="Statickrasnobunker1">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>3</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="3" min="3" type="Land_Mil_AircraftShelter"/>
+        </children>
+    </event>
+    <event name="Staticradar">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Tisy_RadarB_Base"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Tisy_RadarB_Antenna"/>
+        </children>
+    </event>
+    <event name="StaticATC2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Airfield_Radar_Tall"/>
+        </children>
+    </event>
+    <event name="StaticBarracks4">
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="4" min="4" type="Land_Mil_Barracks2"/>
+        </children>
+    </event>
+    <event name="StaticTank1">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="land_bunker1_double"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- berezino shore -->
+    <event name="StaticTower1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Mil_ControlTower"/>
+        </children>
+    </event>
+    <event name="StaticShoreBunker1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="land_bunker1_double"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- nihnoye dock -->
+    <event name="StaticTower2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Mil_ControlTower"/>
+        </children>
+    </event>
+    <event name="StaticShoreBunker2">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="land_bunker1_double"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- solnichy -->
+    <event name="Staticbus1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Wreck_Ikarus"/>
+        </children>
+    </event>
+    <event name="Staticlighthouse">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Lighthouse"/>
+        </children>
+    </event>
+
+<!-- road block 1 -->
+    <event name="StaticRoadBlockTable">
+        <nominal>6</nominal>
+        <min>6</min>
+        <max>6</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="6" min="6" type="Land_roadblock_table"/>
+        </children>
+    </event>
+    <event name="StaticRoadBlockGuardhouse">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="land_mil_guardbox_brown"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- kamyshovo -->
+    <event name="StaticTower3">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Mil_ControlTower"/>
+        </children>
+    </event>
+    <event name="StaticShoreBunker3">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="land_bunker1_double"/>
+        </children>
+    </event>
+    <event name="StaticPileUp">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="Land_Wreck_V3S"/>
+        </children>
+    </event>
+<!-- end -->
+
+<!-- balota -->
+    <event name="StaticHangar2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Airfield_Hangar_Green"/>
+        </children>
+    </event>
+    <event name="StaticHQ">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Mil_Airfield_HQ"/>
+        </children>
+    </event>
+    <event name="StaticATC3">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Mil_ATC_Small"/>
+        </children>
+    </event>
+    <event name="StaticConvoy">
+        <nominal>5</nominal>
+        <min>5</min>
+        <max>5</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="3" min="3" type="Land_Wreck_V3S"/>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="Land_Wreck_hb01_aban2_police"/>
+        </children>
+    </event>
+<!-- end -->
+
+
+<!-- cfgeventspawns.xml Replace Entry -->
+
+    <event name="StaticHeliCrash2">
+		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
+    <!-- tisy -->
+        <pos x="2389.000000" z="13573.800000" a="220.000000" />
+        <pos x="2260.400000" z="13544.930000" a="90.000000" />
+    <!-- balota -->
+        <pos x="5054.200000" z="2333.000000" a="220.000000" /> <!-- 1 -->
+        <pos x="5030.000000" z="2355.800000" a="0.000000" /> 
+    <!-- prison island -->
+        <pos x="2672.940000" z="1518.090000" a="0.000000" /> 
+    <!-- nwaf -->
+        <pos x="4155.400000" z="11027.700000" a="90.000000" />
+        <pos x="4168.700000" z="10990.700000" a="90.000000" />
+    <!-- krasno -->
+        <pos x="12387.590000" z="12378.750000" a="220.000000" />
+        <pos x="11954.810000" z="12614.030000" a="220.000000" />
+    </event>
+
+<!-- cfgeventspawns.xml New Entry -->
+
+    <!-- N.W.A.F -->
+    <event name="StaticPlaneNW"> 
+        <pos x="4787.46" z="9670.80" a="150.000000" /> 
+        <pos x="4771.42" z="9699.31" a="150.000000" />
+        <pos x="4754.89" z="9726.54" a="150.000000" />
+        <pos x="4738.37" z="9757.65" a="150.000000" />
+        <pos x="4721.84" z="9786.81" a="150.000000" />
+        <!-- ATC-->
+        <pos x="4658.16" z="10354.59" a="90.000000" />
+        <pos x="4681.01" z="10317.65" a="90.000000" />
+        <!-- krasno-->
+        <pos x="12071.63" z="12678.19" a="200.000000" />
+        <pos x="12230.58" z="12523.12" a="200.000000" />
+        <!-- Balota -->
+        <pos x="5148.2275" z="2279.8184" a="237.65817" />
+        <pos x="5122.1021" z="2246.8032" a="55.933857" />
+        <pos x="4956.62" z="2526.28" a="325.000000" />
+    </event>
+    <event name="StaticBarracks1"> 
+        <pos x="4927.78" z="9748.09" a="80.000000" />
+    </event>
+    <event name="StaticHangar1"> 
+        <pos x="4733.51" z="10166.63" a="60.000000" />
+    </event>
+    <event name="StaticRadar1"> 
+        <pos x="4702.40" z="10224.15" a="60.000000" />
+    </event>
+    <event name="StaticBarracks2"> 
+        <pos x="4911.90" z="9803.34" a="160.000000" />
+        <pos x="4905.58" z="9827.65" a="160.000000" />
+    </event>
+    <event name="StaticCamonet1"> 
+        <pos x="4918.71" z="9777.09" a="50.000000" />
+    <!-- Krasno -->
+        <pos x="12214.06" z="12637.87" a="160.000000" />
+    <!-- End -->
+    </event>
+    <event name="StaticRadar2">  
+        <pos x="4896.83" z="9630.77" a="150.000000" />
+    </event>
+    <event name="StaticBarracks3"> 
+        <pos x="4422.57" z="10699.89" a="120.000000" />
+        <pos x="4408.47" z="10724.19" a="120.000000" />
+        <pos x="4393.40" z="10747.53" a="120.000000" />
+        <pos x="4379.79" z="10771.83" a="120.000000" />
+    </event>
+    <event name="StaticBunker1">   
+        <pos x="4682.47" z="9920.98" a="60.000000" />
+        <pos x="4472.47" z="10290.59" a="60.000000" />
+    </event>
+    <!-- N.W.A.F end-->
+    <!-- train crashs -->
+    <event name="Statictraincrash1"> 
+        <pos x="5476.26" z="12265.49" a="58.000000" />
+        <pos x="5512.72" z="12278.12" a="244.000000" />
+        <pos x="5501.05" z="12275.69" a="70.000000" />
+        <pos x="5486.96" z="12271.32" a="58.000000" />
+    </event>
+    <event name="Statictraincrash2"> 
+        <pos x="8120.63" z="12387.99" a="244.000000" /> 
+        <pos x="8110.42" z="12382.15" a="244.000000" />
+        <pos x="8100.70" z="12376.32" a="244.000000" />
+        <pos x="8087.58" z="12379.37" a="115.000000" />
+    <!-- electro_cherno -->  
+        <pos x="8797.31" z="2339.13" a="320.000000" /> <!-- 1 -->
+        <pos x="8812.29" z="2316.28" a="335.000000" /> <!-- 2 --> 
+        <pos x="8805.11" z="2328.92" a="325.000000" /> <!-- 3 -->
+    </event>
+    <event name="Statictraincrash2.5"> <!-- cabin -->
+        <pos x="8136.19" z="12405.97" a="220.000000" /> 
+    </event>
+    <!-- electro_cherno -->
+    <event name="Statictraincrash3">
+        <pos x="8822.81" z="2297.41" a="325.000000" /> 
+    </event>
+    <!-- end -->
+    <!-- N.E.A.F -->
+    <event name="Statickrasnobunker1">
+        <pos x="12172.09" z="12693.30" a="23.000000" />
+        <pos x="12213.41" z="12676.06" a="23.000000" />
+        <pos x="12251.46" z="12611.19" a="116.000000" />
+    </event>
+    <event name="Staticradar">
+        <pos x="12131.74" z="12663.45" a="20.000000" />
+    </event>
+    <event name="StaticATC2">  
+        <pos x="11981.70" z="12511.94" a="200.000000" />
+    </event>
+    <event name="StaticBarracks4">  
+        <pos x="11898.09" z="12539.65" a="115.000000" />
+        <pos x="11860.66" z="12556.15" a="115.000000" />
+        <pos x="11837.82" z="12566.87" a="115.000000" />
+        <pos x="11816.92" z="12576.11" a="115.000000" />
+    </event>
+    <event name="StaticTank1">  
+        <pos x="12045.54" z="12462.04" a="200.000000" />
+        <pos x="12270.93" z="12374.37" a="200.000000" />
+    </event>
+
+    <!-- berezino shore -->
+    <event name="StaticTower1"> 
+        <pos x="12978.690000" z="9395.010000" a="300.000000" />
+    </event>
+    <event name="StaticShoreBunker1"> 
+        <pos x="13000.890000" z="9362.760000" a="0.000000" />
+    </event>
+    <event name="Staticboatwreck1"> <!-- front -->
+        <pos x="12960.700000" z="9056.680000" a="100.000000" />
+    </event>
+    <event name="Staticboatwreck1_5"> <!-- back --> 
+        <pos x="12980.150000" z="9103.340000" a="100.000000" /> 
+    </event>
+    <event name="StaticboatwreckContainers"> 
+        <pos x="12944.010000" z="9110.150000" a="100.000000" />
+        <pos x="12928.460000" z="9079.040000" a="100.000000" /> 
+        <pos x="12941.100000" z="9033.830000" a="100.000000" />
+    </event>
+
+    <!-- skalisty -->
+    <event name="Staticboatwreck2">
+        <pos x="13075.750000" z="3665.080000" a="100.000000" /> 
+    </event>
+    <event name="Staticboatwreck2_5">
+        <pos x="13097.780000" z="3677.390000" a="110.000000" />
+    </event>
+    <event name="StaticboatwreckContainers2"> 
+        <pos x="13045.770000" z="3677.390000" a="100.000000" />
+        <pos x="13070.560000" z="3690.510000" a="100.000000" /> 
+        <pos x="13066.190000" z="3674.470000" a="110.000000" />
+    </event>
+    <!-- end -->
+
+    <!-- niznoye dock -->
+    <event name="StaticTower2"> 
+        <pos x="13092.510000" z="8176.500000" a="275.000000" /> 
+    </event>
+    <event name="StaticShoreBunker2"> 
+        <pos x="13085.630000" z="8334.320000" a="0.000000" />
+        <pos x="13088.710000" z="8156.560000" a="0.000000" /> 
+    </event>
+
+    <!-- solnichy -->
+    <event name="Staticbus1"> 
+        <pos x="13313.610000" z="6888.140000" a="0.000000" /> 
+    </event>
+    <event name="Staticlighthouse"> 
+        <pos x="13574.160000" z="6049.600000" a="0.000000" /> 
+    </event>
+    <event name="StaticRoadBlockTable"> 
+        <pos x="13398.330000" z="5730.020000" a="0.000000" /> 
+        <pos x="13396.330000" z="5730.020000" a="0.000000" /> 
+        <pos x="13392.330000" z="5720.020000" a="0.000000" /> 
+        <pos x="13390.330000" z="5720.020000" a="0.000000" /> 
+        <pos x="13395.330000" z="5710.020000" a="0.000000" /> 
+        <pos x="13397.330000" z="5710.020000" a="0.000000" /> 
+    </event>
+    <event name="StaticRoadBlockGuardhouse"> 
+        <pos x="13400.210000" z="5685.750000" a="275.000000" /> 
+    </event>
+    <!-- end -->
+
+    <!-- kamyshovo -->
+    <event name="StaticTower3"> 
+        <pos x="11076.590000" z="2763.560000" a="50.000000" />
+    </event>
+    <event name="StaticShoreBunker3"> 
+        <pos x="12212.440000" z="3422.670000" a="180.000000" />
+        <pos x="12402.660000" z="3323.180000" a="180.000000" />
+    </event>
+    <!-- end -->
+
+    <!-- cherno_electro -->
+    <event name="StaticPileUp"> 
+        <pos x="8853.670000" z="2285.980000" a="340.000000" />
+        <pos x="8859.500000" z="2279.180000" a="358.000000" />
+    </event>
+    <!-- end -->
+
+    <!-- Balota -->
+    <event name="StaticHangar2"> 
+        <pos x="4931.67" z="2559.50" a="325.000000" />
+    </event>
+    <event name="StaticHQ"> 
+        <pos x="5099.21" z="2401.51" a="140.000000" />
+    </event>
+    <event name="StaticATC3"> 
+        <pos x="5124.33" z="2364.41" a="230.000000" />
+    </event>
+    <event name="StaticConvoy"> 
+        <pos x="5270.640000" z="2094.130000" a="203.000000" />
+        <pos x="5283.280000" z="2088.300000" a="110.000000" />
+        <pos x="5294.950000" z="2084.410000" a="110.000000" />
+        <pos x="5307.100000" z="2080.520000" a="110.000000" />
+        <pos x="5320.230000" z="2078.090000" a="110.000000" />
+    </event>
+    <!-- end -->
+
+
+
+****************************************	
+Org File Created by Dayzdevil#0666. For more modded files for DayZ come visit us at https://discord.gg/PyjmsCM
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	
