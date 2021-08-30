@@ -1,0 +1,186 @@
+
+******Here is a list of all the Books you can add to your Types.xml******
+
+------<( Remember to remove the part after each books code name which is inside the [*] markers for the code names to work in your types.XML file)>------
+
+simply replace a previous entries name in your types.XML file that is no longer used or for eaze of use here is an example for you of a Type format all you will have to do is replace the books name inside the ""
+
+----<( Example )>----
+
+    <type name="BookTheCallOfCthulhu">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+  </type>
+  <type name="BookHunger">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+  </type>
+
+Book20000LieuesSousLesMers [20000 Lieues sous les mers]
+BookADollsHouse [A Doll's House]
+BookAPrincessOfMars [A Princess of Mars]
+BookATexasMatchmaker [A Texas Matchmaker]
+BookATravelerInTime [A Traveler In Time]
+BookAVoyageToArcturus [A Voyage to Arcturus]
+BookAfterLondon [After London]
+BookAliceInWonderland [Alice's Adventures in Wonderland]
+BookAndersen [Fairy Tales]
+BookAndersensFairyTales [Andersen's Fairy Tales]
+BookAnnaKarenina [Anna Karenina]
+BookAroundTheWorldIn80Days [Around the World in 80 Days]
+BookBettyZane [Betty Zane]
+BookBilaNemoc [Bila nemoc]
+BookBlackBeauty [Black Beauty]
+BookBlackJack [Black Jack]
+BookBuddenbrooks [Buddenbrooks]
+BookCandide [Candide]
+BookCassidysRustlerRoundUp [Hopalong Cassidy's Rustler Round-Up]
+BookCinqSemainesEnBallon [Cinq Semaines En Ballon]
+BookCrimeAndPunishment [Crime and Punishment]
+BookDasNibelungenlied [Das Nibelungenlied]
+BookDeLaTerreLaLune [De la terre a la lune]
+BookDeLorigineDesEspces [De l'origine des especes]
+BookDeadSouls [Dead Souls]
+BookDesertGold [Desert Gold]
+BookDonQuichotte [L’Ingénieux Hidalgo Don Quichotte de la Manche]
+BookDonQuixote [Don Quixote]
+BookDracula [Dracula]
+BookErewhon [Erewhon]
+BookFatherGoriot [Father Goriot]
+BookFaust [Faust]
+BookFaustErsterTeil [Faust: Der Tragödie erster Teil]
+BookFlyingURanch [Flying U Ranch]
+BookFrankenstein [Frankenstein]
+BookGilgameshEpic [An Old Babylonian Version of the Gilgamesh Epic]
+BookGreatExpectations [Great Expectations]
+BookGulliversTravels [Gulliver's Travels]
+BookGunmansReckoning [Gunman's Reckoning]
+BookHeartOfDarkness [Heart of Darkness]
+BookHerland [Herland]
+BookHinduLiterature [Hindu Literature]
+BookHunger [Hunger]
+BookIvanhoe [Ivanhoe]
+BookJapaneseLiterature [Japanese Literature]
+BookKidnapped [Kidnapped]
+BookKingLear [King Lear]
+BookKingSolomonsMines [King Solomon's Mines]
+BookLaChartreuseDeParme [La Chartreuse de Parme]
+BookLaComdieHumaine [La Comédie humaine volume I]
+BookLaDbcle [La Débâcle]
+BookLeRougeEtLeNoir [Le Rouge et le noir]
+BookLenfer1Of2 [L'enfer (1 of 2)]
+BookLesCorneilles [Les Corneilles]
+BookLesTroisMousquetaires [Les trois mousquetaires]
+BookLleMystrieuse [L'Île mystérieuse]
+BookLonesomeLand [Lonesome Land]
+BookLordJim [Lord Jim]
+BookMadameBovary [Madame Bovary]
+BookMiddlemarch [Middlemarch]
+BookMobyDick [Moby Dick]
+BookMrchenFrKinder [Märchen für Kinder]
+BookNaturalSelection [On the Origin of Species by Means of Natural Selection]
+BookNjalsSaga [Njal's Saga]
+BookNostromo [Nostromo: A Tale of the Seaboard]
+BookPhilosophiaeNaturalis [Philosophiae Naturalis Principia Mathematica]
+BookPrideAndPrejudice [Pride and Prejudice]
+BookRasselas [Rasselas]
+BookRobinsonCrusoe [Robinson Crusoe]
+BookRobinsonCrusoeAdventures [The Further Adventures of Robinson Crusoe]
+BookRomeoUndJulia [Romeo und Julia]
+BookRonickyDoone [Ronicky Doone]
+BookRussian [Russian learning book]
+BookRussianCheatSheet [Russian cheat sheet]
+BookScaramouche [Scaramouche]
+BookSelectedStories [Selected Stories]
+BookShe [She]
+BookSkyrider [Skyrider]
+BookSonsAndLovers [Sons and Lovers]
+BookSpinifexAndSand [Spinifex and Sand]
+BookSunsetPass [Sunset Pass]
+BookTheAeneid [The Aeneid]
+BookTheArtOfWar [The Art Of War]
+BookTheBarrier [The Barrier]
+BookTheBrothersKaramazov [The Brothers Karamazov]
+BookTheCallOfCthulhu [The Call of Cthulhu]
+BookTheCallOfTheWild [The Call of the Wild]
+BookTheCanterburyTales [The Canterbury Tales and Other Poems]
+BookTheCaveOfGold [The Cave of Gold]
+BookTheComingRace [The Coming Race]
+BookTheCosmicComputer [The Cosmic Computer]
+BookTheCountryOfTheBlind [The Country of the Blind]
+BookTheDayOfTheBeast [The Day of the Beast]
+BookTheDecameron [The Decameron of Giovanni Boccaccio]
+BookTheDesertOfWheat [The Desert of Wheat]
+BookTheGiacomoLeopardi [The Poems of Giacomo Leopardi]
+BookTheHeritageOfTheSioux [The Heritage of the Sioux]
+BookTheHiddenChildren [The Hidden Children]
+BookTheHoundOfTheBaskervilles [The Hound of the Baskervilles]
+BookTheHouseOfTheSevenGables [The House of the Seven Gables]
+BookTheIslandOfDoctorMoreau [The Island of Doctor Moreau]
+BookTheJungleBook [The Jungle Book]
+BookTheJustifiedSinner [The Private Memoirs and Confessions of a Justified Sinner]
+BookTheLastMan [The Last Man]
+BookTheLastOfThePlainsmen [The Last of the Plainsmen]
+BookTheLastTrail [The Last Trail]
+BookTheMahabharataOfKrishna [The Mahabharata of Krishna-Dwaipayana Vyasa Bk. 4]
+BookTheManWhoWasThursday [The Man Who Was Thursday]
+BookTheMetamorphosesOfOvid [The Metamorphoses of Ovid]
+BookTheMetamorphosis [The Metamorphosis]
+BookTheMonkARomance [The Monk - A romance]
+BookTheOutlet [The Outlet]
+BookThePictureOfDorianGray [The Picture Of Dorian Gray]
+BookThePitAndThePendulum [The Pit and the Pendulum]
+BookThePossessed [The Possessed]
+BookThePrisonerOfZenda [The Prisoner of Zenda]
+BookTheQuirt [The Quirt]
+BookTheRaven [The Raven]
+BookTheRedBadgeOfCourage [The Red Badge of Courage]
+BookTheRightsOfWoman [A Vindication of the Rights of Women]
+BookTheScarletPimpernel [The Scarlet Pimpernel]
+BookTheShunnedHouse [The Shunned House]
+BookTheThreeMusketeers [The Three Musketeers]
+BookTheThunderBird [The Thunder Bird]
+BookTheTimeMachine [The Time Machine]
+BookTheTrial [The Trial]
+BookTheTurnOfTheScrew [The Turn of the Screw]
+BookTheVariableMan [The Variable Man]
+BookTheWarOfTheWorlds [The War of the Worlds]
+BookThreeMenInABoat [Three Men in a Boat]
+BookToTheInteriorOfTheEarth [A Journey to the Interior of the Earth]
+BookTonyAndTheBeetles [Tony and the Beetles]
+BookTrailin [Trailin'!]
+BookTranslationsOfShakuntala [Translations of Shakuntala and Other Works]
+BookTreasureIsland [Treasure Island]
+BookUlysses [Ulysses]
+BookUncleSilas [Uncle Silas]
+BookVerwandlung [Die Verwandlung]
+BookVoyageAuCentreDeLaTerre [Voyage au Centre de la Terre]
+BookWarAndPeace [War and Peace]
+BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nations]
+BookWielandOrTheTransformation [Wieland or The Transformation]
+BookWutheringHeights [Wuthering Heights]
+BookYouth [Youth]
+
+This .txt is by DaFoogle ^-^

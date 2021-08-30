@@ -1,0 +1,122 @@
+****** install notes ******
+ Install as is. Do not Change any of the code.
+
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+Brena castle by daydevil#0666
+
+****************************************
+<!-- events.xml New Entry -->
+<!-- Brena Castle -->
+    <event name="StaticBuilding1">
+        <nominal>9</nominal>
+        <min>9</min>
+        <max>9</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children> 
+            <child lootmax="0" lootmin="0" max="9" min="9" type="Land_Castle_Wall1_20"/>
+        </children>
+    </event>
+    <event name="StaticBergfrit1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>5</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children> <!-- Land_Castle_Bergfrit Land_Castle_Donjon -->
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Castle_Bergfrit"/>
+        </children>
+    </event>
+    <event name="Static_wall_bastion1">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>5</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position> 
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="Land_Castle_Bastion_nolc"/>
+        </children>
+    </event>
+    <event name="StaticEntrance1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>5</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position> 
+        <limit>child</limit>
+        <active>1</active>
+        <children> 
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Castle_Gate"/>
+        </children>
+    </event>
+<!-- end -->
+
+
+<!-- cfgeventspawns.xml New Entry -->
+
+<!-- Brena Castle -->
+    <event name="StaticBuilding1"> 
+        <!-- east side -->
+        <pos x="7300.000000" z="12685.000000" a="90.000000" />
+        <pos x="7300.000000" z="12646.000000" a="90.000000" />
+	<!-- south side -->
+        <pos x="7289.000000" z="12635.500000" a="180.000000" />
+        <pos x="7249.100000" z="12635.500000" a="180.000000" />
+        <!-- north side -->
+        <pos x="7289.000000" z="12696.100000" a="0.000000" />
+        <pos x="7269.000000" z="12696.000000" a="0.000000" />
+        <pos x="7249.000000" z="12696.000000" a="0.000000" />
+	<!-- west side -->
+        <pos x="7237.900000" z="12686.000000" a="270.000000" />
+        <pos x="7238.000000" z="12646.000000" a="270.000000" />
+    </event>
+	<event name="StaticBergfrit1"> 
+        <pos x="7269.000000" z="12666.000000" a="360.00" />
+    </event>
+    <event name="Static_wall_bastion1">
+        <pos x="7229.700000" z="12666.000000" a="270.000000" />
+        <pos x="7308.400000" z="12665.500000" a="90.000000" />
+    </event>
+    <event name="StaticEntrance1">
+        <pos x="7269.450000" z="12640.500000" a="179.500000" />
+    </event>
+<!-- end -->
+
+
+
+****************************************		
+Org File Created by Dayzdevil#0666. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

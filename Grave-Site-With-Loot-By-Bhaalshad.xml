@@ -1,0 +1,69 @@
+<!-- cfgeventspawns.xml New Entry -->
+    <event name="Static_Dead_MassGrave1">
+        <pos x="4120.520508" z="10818.796875" a="160.894226" />
+    </event>
+
+*
+<!-- events.xml New Entry -->
+     <event name="Static_Dead_MassGrave1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="34" lootmin="34" max="1" min="1" type="Land_Dead_MassGrave"/>
+        </children>
+    </event>
+
+<!-- mapgroupproto.xml add entry -->
+        <group name="Land_Dead_MassGrave" lootmax="34">
+        <usage name="Special"/>
+                <container name="lootFloor" lootmax="34">
+        <category name="bagsguns"/>
+        <category name="weapons"/>
+<point pos="4.293945 -1.541862 4.939941" range="0.100000" height="1.145172" />
+                        <point pos="5.630615 -1.221848 3.478027" range="0.203125" height="1.058037" />
+                        <point pos="5.128174 -1.250969 3.282227" range="0.237500" height="1.899963" />
+                        <point pos="4.601563 -1.275345 3.026855" range="0.237500" height="1.900002" />
+                        <point pos="4.976563 -1.479630 5.021972" range="0.340625" height="1.139282" />
+                        <point pos="5.462646 -1.856918 3.474609" range="0.595988" height="1.900002" />
+                        <point pos="4.273926 -1.856918 6.096679" range="0.718352" height="1.900002" />
+                        <point pos="3.722656 -1.856918 4.948730" range="0.821779" height="1.900002" />
+                        <point pos="6.276123 -1.856918 6.080566" range="0.827611" height="1.900002" />
+
+                        <point pos="5.192871 -1.856918 -4.159668" range="0.846799" height="1.900002" />
+                        <point pos="4.588379 -1.856918 -3.039551" range="0.898411" height="1.900002" />
+                        <point pos="5.540283 -1.856918 -7.118164" range="0.908636" height="1.900002" />
+                        <point pos="2.502686 -1.856918 -5.775879" range="0.942924" height="1.900002" />
+                        <point pos="5.894042 -1.856918 -3.567383" range="1.068359" height="1.900002" />
+                        <point pos="6.488282 -1.856918 -5.621094" range="1.069595" height="1.900002" />
+                        <point pos="2.299072 -1.856918 -4.951172" range="1.199951" height="1.900002" />
+                        <point pos="2.732910 -1.856918 -3.940430" range="1.199951" height="1.900002" />
+<point pos="-4.293945 -1.541862 -4.939941" range="0.100000" height="1.145172" />
+                        <point pos="-5.630615 -1.221848 -3.478027" range="0.203125" height="1.058037" />
+                        <point pos="-5.128174 -1.250969 -3.282227" range="0.237500" height="1.899963" />
+                        <point pos="-4.601563 -1.275345 -3.026855" range="0.237500" height="1.900002" />
+                        <point pos="-4.976563 -1.479630 -5.021972" range="0.340625" height="1.139282" />
+                        <point pos="-5.462646 -1.856918 -3.474609" range="0.595988" height="1.900002" />
+                        <point pos="-4.273926 -1.856918 -6.096679" range="0.718352" height="1.900002" />
+                        <point pos="-3.722656 -1.856918 -4.948730" range="0.821779" height="1.900002" />
+                        <point pos="-6.276123 -1.856918 -6.080566" range="0.827611" height="1.900002" />
+
+                        <point pos="-5.192871 -1.856918 4.159668" range="0.846799" height="1.900002" />
+                        <point pos="-4.588379 -1.856918 3.039551" range="0.898411" height="1.900002" />
+                        <point pos="-5.540283 -1.856918 7.118164" range="0.908636" height="1.900002" />
+                        <point pos="-2.502686 -1.856918 5.775879" range="0.942924" height="1.900002" />
+                        <point pos="-5.894042 -1.856918 3.567383" range="1.068359" height="1.900002" />
+                        <point pos="-6.488282 -1.856918 5.621094" range="1.069595" height="1.900002" />
+                        <point pos="-2.299072 -1.856918 4.951172" range="1.199951" height="1.900002" />
+                        <point pos="-2.732910 -1.856918 3.940430" range="1.199951" height="1.900002" />
+                </container>
+        </group>

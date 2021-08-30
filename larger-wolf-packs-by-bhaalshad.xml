@@ -1,0 +1,42 @@
+Increasing Wolf spawns numbers
+
+In Events.xml
+    <event name="AnimalWolf">
+        <nominal>40</nominal>
+        <min>40</min>
+        <max>40</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_CanisLupus_Grey"/>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_CanisLupus_White"/>
+        </children>
+    </event>
+	
+In cfgenviroment.xml
+        <territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
+            <file usable="wolf_territories" />
+            <item name="globalCountMax" val="100" />
+            <item name="zoneCountMin" val="10" />
+            <item name="zoneCountMax" val="40" />
+            <item name="playerSpawnRadiusNear" val="25" />
+            <item name="playerSpawnRadiusFar" val="75" />            
+        </territory>
+		
+In the Wolf Territories you will want to edit for each territory line in the file.
+You will see many territory lines. You want to leave what is there and just add in
+after the color numbers the new code commands. 
+
+so you start with 
+<territory color="4291611852"> for example, 
+
+and end with it looking like this
+<territory color="4291611852" type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
+

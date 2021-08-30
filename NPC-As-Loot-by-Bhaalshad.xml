@@ -1,0 +1,3222 @@
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+This will allow you to place fully geared NPC's
+into the loot table. Have any building you choose
+to spawn them in.
+
+****************************************
+<!-- 1st cfglinitsdefinition.xml New Entry -->
+goto the category area and add the new entry. 
+
+	<categories>
+		<category name="tools"/>
+		<category name="containers"/>
+		<category name="clothes"/>
+		<category name="vehiclesparts"/>
+		<category name="food"/>
+		<category name="weapons"/>
+		<category name="books"/>
+		<category name="explosives"/>
+		<category name="vehicles"/>
+		<category name="npc"/> <!-- This is our new category -->
+	<categories>
+	
+<!-- 2nd types.xml New Entry -->
+Now we need to add in all 30 of the NPC's so they can be loot
+
+    <type name="SurvivorF_Eva">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Frida">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Gabi">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Helga">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Irena">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>	
+    <type name="SurvivorF_Judy">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Keiko">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Linda">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Maria">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorF_Naomi">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Boris">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Cyril">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Denis">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Elias">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Francis">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Guo">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Hassan">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Indar">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Jose">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Kaito">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Lewis">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Manua">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Mirek">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Niki">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Oliver">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Peter">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Quinn">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Rolf">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Seth">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+    </type>
+    <type name="SurvivorM_Taiki">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="npc"/>
+		<usage name="NPC" />
+	</type>
+
+<!-- 3rd cfgspawnabletypes.xml New Entry -->
+This will fully equipt all 30 NPC's with gear.
+
+	<type name="SurvivorF_Eva"><!-- 1 -->
+	<attachments>
+		<item name="CowboyHat_black" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="M4_OEBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="M4_RISHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="ACOGOptic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_STANAG_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="BoxCerealCrunchin" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorF_Keiko"><!-- 7 -->
+	<attachments>
+		<item name="GreatHelm" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>		
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>	
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="LargeTent" />
+	</attachments>
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>
+	<attachments>
+		<item name="Canteen" />
+	</attachments>
+	</type>
+	<type name="SurvivorF_Helga"><!-- 9 -->
+	<attachments>
+		<item name="CowboyHat_darkBrown" />
+	</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Fal_FoldingBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="ACOGOptic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_FAL_20Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Boris"><!-- 11 -->
+	<attachments>
+		<item name="BalaclavaMask_Green" />
+	</attachments>
+	<attachments>
+		<item name="LeatherShirt_Natural" />
+	</attachments>
+	<attachments>
+		<item name="LeatherPants_Brown" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="LeatherStorageVest_Brown" />
+	</attachments>
+	<attachments>
+		<item name="LeatherSack_Natural" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>
+	<attachments>
+		<item name="Mag_Deagle_9rnd"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Deagle_Gold" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PistolSuppressor" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="BoxCerealCrunchin" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Cyril"><!-- 12 -->
+	<attachments>
+		<item name="BaseballCap_Pink" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="PrisonUniformJacket" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_PlasticBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_WoodHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PSO11Optic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_Suppressor" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_AK101_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Denis"><!-- 13 -->
+	<attachments>
+		<item name="LeatherHat_Black" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Saiga_Bttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Elias"><!-- 14 -->
+	<attachments>
+		<item name="CowboyHat_Black" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>		
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>
+	<attachments>
+		<item name="Canteen" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Francis"><!-- 15 -->
+	<attachments>
+		<item name="PumpkinHelmet" />
+	</attachments>
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="M4_OEBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="M4_RISHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="ACOGOptic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_STANAG_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Guo"><!-- 16 -->
+	<attachments>
+	<item name="CowboyHat_darkBrown" />
+	</attachments>
+	<attachments>
+	<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Fal_FoldingBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="ACOGOptic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_FAL_20Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Red" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Hassan"><!-- 17 -->
+	<attachments>
+		<item name="CowboyHat_Black" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Woodland" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AKM"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_RailHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_WoodBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PSO11Optic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_Suppressor" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_AKM_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="TacticalBaconCan_Opened" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Kvass" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Indar"><!-- 18 -->
+	<attachments>
+		<item name="MilitaryBeret_Red" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="HuntingJacket_Winter" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_FNX45_15Rnd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PistolSuppressor" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="TLRLight" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="FNP45_MRDSOptic" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>		
+	</type>
+	<type name="SurvivorM_Jose"><!-- 19 -->
+	<attachments>
+		<item name="SantasHat" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_PlasticBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_WoodHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PSO11Optic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_Suppressor" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_AK101_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Kaito"><!-- 20 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="FirefighterJacket_Black" />
+	</attachments>
+	<attachments>
+		<item name="FirefightersPants_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="LeatherStorageVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="LeatherSack_Natural" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Saiga_Bttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Manua"><!-- 22 -->
+	<attachments>
+		<item name="MotoHelmet_Black" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="M4_OEBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="M4_RISHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="ACOGOptic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_STANAG_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Mirek"><!-- 23 -->
+	<attachments>
+	<item name="MotoHelmet_Lime" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Fal_FoldingBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="ACOGOptic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_FAL_20Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Oliver"><!-- 25 -->
+	<attachments>
+		<item name="MotoHelmet_Red" />
+	</attachments>
+	<attachments>
+		<item name="LeatherShirt_Natural" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Deagle_Gold"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_Deagle_9rnd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PistolSuppressor" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Quinn"><!-- 27 -->
+	<attachments>
+		<item name="SkateHelmet_Red" />
+	</attachments>
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Saiga_Bttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Rolf"><!-- 28 -->
+	<attachments>
+		<item name="ZSh3PilotHelmet" />
+	</attachments>
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>	
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>	
+	<attachments>
+		<item name="Canteen" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Seth"><!-- 29 -->
+	<attachments>
+		<item name="BallisticHelmet_Green" />
+	</attachments>
+	<attachments>
+		<item name="ZmbM_Jacket_black" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_FNX45_15Rnd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PistolSuppressor" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="TLRLight" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="FNP45_MRDSOptic" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>
+	</type>
+	<type name="SurvivorM_Taiki"><!-- 30 -->
+	<attachments>
+		<item name="BaseballCap_Black" />
+	</attachments>
+	<attachments>
+		<item name="HikingJacket_Green" />
+	</attachments>
+	<attachments>
+		<item name="TrackSuitPants_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_PlasticBttstck" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_WoodHndgrd" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="PSO11Optic" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="AK_Suppressor" chance="1" />
+	</attachments>
+	<attachments chance="1">
+		<item name="Mag_AK101_30Rnd" chance="1" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="SalineBagIV" />
+	</attachments>
+	<attachments>
+		<item name="BandageDressing" />
+	</attachments>
+	<attachments>
+		<item name="Rice" />
+	</attachments>
+	<attachments>
+		<item name="SodaCan_Cola" />
+	</attachments>				
+	</type>
+	<type name="SurvivorM_Peter">
+		<attachments>
+			<item name="SantasHat" />
+		</attachments>
+		<attachments>
+			<item name="SantasBeard" />
+		</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+		</attachments>
+		<attachments>
+			<item name="NVGoggles" />
+		</attachments>
+		<attachments>
+			<item name="ParamedicJacket_Crimson" />
+		</attachments>
+		<attachments>
+			<item name="ParamedicPants_Crimson" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBoots_Redpunk" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="CombatKnife" />
+		</attachments>
+		<attachments>
+			<item name="MountainBag_Red" />
+		</attachments>
+		<attachments>
+			<item name="TacticalGloves_Beige" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="Winchester70" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="M4A1_Green" />
+		</attachments>
+		<attachments>
+			<item name="M4_CQBBttstck" />
+		</attachments>
+		<attachments>
+			<item name="M4_RISHndgrd_Green" />
+		</attachments>
+		<attachments>
+			<item name="M4_Suppressor" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="M68Optic" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Deagle_Gold" chance="1" />
+		</attachments>
+		<attachments chance="1">
+			<item name="PistolOptic" chance="1" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="M18SmokeGrenade_Green" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Kvass" />
+		</attachments>
+		<attachments>
+			<item name="TacticalBaconCan_Opened" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="SalineBagIV" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Red" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Blue" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Green" />
+		</attachments>
+		<attachments>
+			<item name="Armband_White" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Maria">
+		<attachments>
+			<item name="Headtorch_Black" />
+		</attachments>
+		<attachments>
+			<item name="AviatorGlasses" />
+		</attachments>
+		<attachments>
+			<item name="BandanaMask_BlackPattern" />
+		</attachments>
+		<attachments>
+			<item name="FirefighterJacket_Black" />
+		</attachments>
+		<attachments>
+			<item name="FirefightersPants_Black" />
+		</attachments>
+		<attachments>
+			<item name="Wellies_Black" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="Canteen" />
+		</attachments>
+		<attachments>
+			<item name="MountainBag_Green" />
+		</attachments>
+		<attachments>
+			<item name="TacticalGloves_Beige" />
+		</attachments>
+		<attachments>
+			<item name="SVD" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AKM" />
+		</attachments>
+		<attachments>
+			<item name="AK_FoldingBttstck" />
+		</attachments>
+		<attachments>
+			<item name="AK74_Hndgrd" />
+		</attachments>
+		<attachments>
+			<item name="KobraOptic" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_SVD_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_SVD_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_SVD_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Kvass" />
+		</attachments>
+		<attachments>
+			<item name="TacticalBaconCan_Opened" />
+		</attachments>
+		<attachments>
+			<item name="Deagle_Gold" />
+		</attachments>
+		<attachments>
+			<item name="PistolOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+		</attachments>
+		<attachments>
+			<item name="NVGoggles" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Green" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Red" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Blue" />
+		</attachments>
+		<attachments>
+			<item name="Armband_White" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Linda">
+		<attachments>
+			<item name="GhillieHood_Mossy" />
+		</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+		</attachments>
+		<attachments>
+			<item name="NVGoggles" />
+		</attachments>
+		<attachments>
+			<item name="GhillieSuit_Mossy" />
+		</attachments>
+		<attachments>
+			<item name="Wellies_Black" />
+		</attachments>
+		<attachments>
+			<item name="FirefighterJacket_Beige" />
+		</attachments>
+		<attachments>
+			<item name="FirefightersPants_Beige" />
+		</attachments>
+		<attachments>
+			<item name="SmershVest" />
+		</attachments>
+		<attachments>
+			<item name="SmershBag" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="LeatherGloves_Black" />
+		</attachments>
+		<attachments>
+			<item name="Armband_White" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="VSS" />
+		</attachments>
+		<attachments>
+			<item name="M4A1_Green" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="ReflexOptic" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="VitaminBottle" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="M4_RISHndgrd" />
+		</attachments>
+		<attachments>
+			<item name="M4_CQBBttstck" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Mag_VSS_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_VSS_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_VSS_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Deagle_Gold" />
+		</attachments>
+		<attachments>
+			<item name="PistolOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+	</type>
+	<type name="SurvivorM_Lewis">
+		<attachments>
+			<item name="GreatHelm" />
+		</attachments>
+		<attachments>
+			<item name="HuntingJacket_Winter" />
+		</attachments>
+		<attachments>
+			<item name="HunterPants_Winter" />
+		</attachments>
+		<attachments>
+			<item name="Sneakers_White" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="AliceBag_Black" />
+		</attachments>
+		<attachments>
+			<item name="LeatherGloves_Black" />
+		</attachments>
+		<attachments>
+			<item name="Armband_White" />
+		</attachments>
+		<attachments>
+			<item name="FAL" />
+		</attachments>
+		<attachments>
+			<item name="Fal_OeBttstck" />
+		</attachments>
+		<attachments>
+			<item name="Winchester70" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="ReflexOptic" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Kvass" />
+		</attachments>
+		<attachments>
+			<item name="Deagle_Gold" />
+		</attachments>
+		<attachments>
+			<item name="PistolOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="TacticalBaconCan_Opened" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+	</type>
+	<type name="SurvivorM_Niki">
+		<attachments>
+			<item name="PumpkinHelmet" />
+		</attachments>
+		<attachments>
+			<item name="RidersJacket_Black" />
+		</attachments>
+		<attachments>
+			<item name="Breeches_Black" />
+		</attachments>
+		<attachments>
+			<item name="Wellies_Black" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="AliceBag_Black" />
+		</attachments>
+		<attachments>
+			<item name="LeatherGloves_Black" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Orange" />
+		</attachments>
+		<attachments>
+			<item name="SKS_Black" />
+		</attachments>
+		<attachments>
+			<item name="PUScopeOptic" />
+		</attachments>
+		<attachments>
+			<item name="SKS_Bayonet" />
+		</attachments>
+		<attachments>
+			<item name="Winchester70_Black" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Kvass" />
+		</attachments>
+		<attachments>
+			<item name="Deagle_Gold" />
+		</attachments>
+		<attachments>
+			<item name="PistolOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="TacticalBaconCan_Opened" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Naomi">
+		<attachments>
+			<item name="Headtorch_Grey" />
+		</attachments>
+		<attachments>
+			<item name="AviatorGlasses" />
+		</attachments>
+		<attachments>
+			<item name="BandanaMask_GreenPattern" />
+		</attachments>
+		<attachments>
+			<item name="WoolCoat_Green" />
+		</attachments>
+		<attachments>
+			<item name="Breeches_Green" />
+		</attachments>
+		<attachments>
+			<item name="Wellies_Green" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Olive" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="Canteen" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="AliceBag_Green" />
+		</attachments>
+		<attachments>
+			<item name="TacticalGloves_Green" />
+		</attachments>
+		<attachments>
+			<item name="Winchester70_Green" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AKM_TESTBED" />
+		</attachments>
+		<attachments>
+			<item name="AK_PlasticBttstck_Green" />
+		</attachments>
+		<attachments>
+			<item name="AK_RailHndgrd_Green" />
+		</attachments>
+		<attachments>
+			<item name="KobraOptic" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd_Green" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd_Green" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ushanka_Green" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="Deagle_Gold" />
+		</attachments>
+		<attachments>
+			<item name="PistolOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Deagle_9rnd" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+		</attachments>
+		<attachments>
+			<item name="NVGoggles" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Green" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Judy">
+		<attachments>
+			<item name="CowboyHat_black" />
+		</attachments>
+		<attachments>
+			<item name="AviatorGlasses" />
+		</attachments>
+		<attachments>
+			<item name="BandanaMask_BlackPattern" />
+		</attachments>
+		<attachments>
+			<item name="LeatherShirt_Natural" />
+		</attachments>
+		<attachments>
+			<item name="LeatherPants_Natural" />
+		</attachments>
+		<attachments>
+			<item name="LeatherShoes_Natural" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="Canteen" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="AliceBag_Green" />
+		</attachments>
+		<attachments>
+			<item name="TacticalGloves_Green" />
+		</attachments>
+		<attachments>
+			<item name="Winchester70_Green" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AKM_TESTBED" />
+		</attachments>
+		<attachments>
+			<item name="AK_PlasticBttstck_Green" />
+		</attachments>
+		<attachments>
+			<item name="AK_RailHndgrd_Green" />
+		</attachments>
+		<attachments>
+			<item name="KobraOptic" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd_Green" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd_Green" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Izh43Shotgun" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="Magnum" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="SawedoffIzh43Shotgun" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_12gaPellets" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_12gaPellets" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_12gaPellets" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Green" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Irena">
+		<attachments>
+			<item name="BoonieHat_Orange" />
+		</attachments>
+		<attachments>
+			<item name="SportGlasses_Orange" />
+		</attachments>
+		<attachments>
+			<item name="QuiltedJacket_Orange" />
+		</attachments>
+		<attachments>
+			<item name="Breeches_Red" />
+		</attachments>
+		<attachments>
+			<item name="Sneakers_Red" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="MilitaryBelt" />
+		</attachments>
+		<attachments>
+			<item name="NylonKnifeSheath" />
+		</attachments>
+		<attachments>
+			<item name="HuntingKnife" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="MountainBag_Orange" />
+		</attachments>
+		<attachments>
+			<item name="WorkingGloves_Yellow" />
+		</attachments>
+		<attachments>
+			<item name="Winchester70_Black" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="M4A1" />
+		</attachments>
+		<attachments>
+			<item name="M4_CQBBttstck" />
+		</attachments>
+		<attachments>
+			<item name="M4_RISHndgrd" />
+		</attachments>
+		<attachments>
+			<item name="ReflexOptic" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Izh43Shotgun" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="M67Grenade" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_357_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_357_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="SawedoffIzh43Shotgun" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_00buck_10rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_00buck_10rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Orange" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Gabi">
+		<attachments>
+			<item name="ThickFramesGlasses" />
+		</attachments>
+		<attachments>
+			<item name="MiniDress_BlueWithDots" />
+		</attachments>
+		<attachments>
+			<item name="ShortJeans_Red" />
+		</attachments>
+		<attachments>
+			<item name="DressShoes_Sunburst" />
+		</attachments>
+		<attachments>
+			<item name="PlateCarrierVest" />
+		</attachments>
+		<attachments>
+			<item name="PlateCarrierPouches" />
+		</attachments>
+		<attachments>
+			<item name="PlateCarrierHolster" />
+		</attachments>
+		<attachments>
+			<item name="Magnum" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="MountainBag_Blue" />
+		</attachments>
+		<attachments>
+			<item name="SurgicalGloves_Blue" />
+		</attachments>
+		<attachments>
+			<item name="B95_Black" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="FAL" />
+		</attachments>
+		<attachments>
+			<item name="Fal_FoldingBttstck" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="ReflexOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Cola" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_357_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_357_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="SawedoffIzh43Shotgun" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_00buck_10rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_00buck_10rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_12gaPellets" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Blue" />
+		</attachments>
+	</type>
+	<type name="SurvivorF_Frida">
+		<attachments>
+			<item name="BaseballCap_Pink" />
+		</attachments>
+		<attachments>
+			<item name="ThickFramesGlasses" />
+		</attachments>
+		<attachments>
+			<item name="MiniDress_Pink" />
+		</attachments>
+		<attachments>
+			<item name="ShortJeans_Black" />
+		</attachments>
+		<attachments>
+			<item name="JoggingShoes_Violet" />
+		</attachments>
+		<attachments>
+			<item name="PlateCarrierVest" />
+		</attachments>
+		<attachments>
+			<item name="Magnum" />
+		</attachments>
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="MountainBag_Green" />
+		</attachments>
+		<attachments>
+			<item name="SurgicalGloves_Blue" />
+		</attachments>
+		<attachments>
+			<item name="B95_Green" />
+		</attachments>
+		<attachments>
+			<item name="PersonalRadio" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="FAL" />
+		</attachments>
+		<attachments>
+			<item name="Fal_FoldingBttstck" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="ReflexOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Kvass" />
+		</attachments>
+		<attachments>
+			<item name="Rangefinder" />
+		</attachments>
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="BandageDressing" />
+		</attachments>
+		<attachments>
+			<item name="Compass" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_357_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_357_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_357" />
+		</attachments>
+		<attachments>
+			<item name="SawedoffIzh43Shotgun" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_00buck_10rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_00buck_10rnd" />
+		</attachments>
+		<attachments>
+			<item name="Ammo_12gaPellets" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="AmmoBox_12gaSlug_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="Armband_Pink" />
+		</attachments>
+	</type>
+
+<!-- 4th mapgroupproto.xml New Entry -->
+If you want a quick test you can use this to spawn
+your NPC'S in. This is optional
+
+		<group name="Land_Dead_MassGrave" lootmax="34">
+				<usage name="NPC" />
+				<container name="lootFloor" lootmax="34">
+						<category name="npc"/><!-- New category to add our NPC's -->
+						<point pos="4.293945 -1.541862 4.939941" range="0.100000" height="1.145172" />
+						<point pos="5.630615 -1.221848 3.478027" range="0.203125" height="1.058037" />
+						<point pos="5.128174 -1.250969 3.282227" range="0.237500" height="1.899963" />
+						<point pos="4.601563 -1.275345 3.026855" range="0.237500" height="1.900002" />
+						<point pos="4.976563 -1.479630 5.021972" range="0.340625" height="1.139282" />
+						<point pos="5.462646 -1.856918 3.474609" range="0.595988" height="1.900002" />
+						<point pos="4.273926 -1.856918 6.096679" range="0.718352" height="1.900002" />
+						<point pos="3.722656 -1.856918 4.948730" range="0.821779" height="1.900002" />
+						<point pos="6.276123 -1.856918 6.080566" range="0.827611" height="1.900002" />
+
+						<point pos="5.192871 -1.856918 -4.159668" range="0.846799" height="1.900002" />
+						<point pos="4.588379 -1.856918 -3.039551" range="0.898411" height="1.900002" />
+						<point pos="5.540283 -1.856918 -7.118164" range="0.908636" height="1.900002" />
+						<point pos="2.502686 -1.856918 -5.775879" range="0.942924" height="1.900002" />
+						<point pos="5.894042 -1.856918 -3.567383" range="1.068359" height="1.900002" />
+						<point pos="6.488282 -1.856918 -5.621094" range="1.069595" height="1.900002" />
+						<point pos="2.299072 -1.856918 -4.951172" range="1.199951" height="1.900002" />
+						<point pos="2.732910 -1.856918 -3.940430" range="1.199951" height="1.900002" />
+						
+						<point pos="-4.293945 -1.541862 -4.939941" range="0.100000" height="1.145172" />
+						<point pos="-5.630615 -1.221848 -3.478027" range="0.203125" height="1.058037" />
+						<point pos="-5.128174 -1.250969 -3.282227" range="0.237500" height="1.899963" />
+						<point pos="-4.601563 -1.275345 -3.026855" range="0.237500" height="1.900002" />
+						<point pos="-4.976563 -1.479630 -5.021972" range="0.340625" height="1.139282" />
+						<point pos="-5.462646 -1.856918 -3.474609" range="0.595988" height="1.900002" />
+						<point pos="-4.273926 -1.856918 -6.096679" range="0.718352" height="1.900002" />
+						<point pos="-3.722656 -1.856918 -4.948730" range="0.821779" height="1.900002" />
+						<point pos="-6.276123 -1.856918 -6.080566" range="0.827611" height="1.900002" />
+
+						<point pos="-5.192871 -1.856918 4.159668" range="0.846799" height="1.900002" />
+						<point pos="-4.588379 -1.856918 3.039551" range="0.898411" height="1.900002" />
+						<point pos="-5.540283 -1.856918 7.118164" range="0.908636" height="1.900002" />
+						<point pos="-2.502686 -1.856918 5.775879" range="0.942924" height="1.900002" />
+						<point pos="-5.894042 -1.856918 3.567383" range="1.068359" height="1.900002" />
+						<point pos="-6.488282 -1.856918 5.621094" range="1.069595" height="1.900002" />
+						<point pos="-2.299072 -1.856918 4.951172" range="1.199951" height="1.900002" />
+						<point pos="-2.732910 -1.856918 3.940430" range="1.199951" height="1.900002" />						
+				</container>
+		</group>
+		
+<!-- 5th -->
+Just remember any building you want to have your NPC's spawn in at, you need to add the New category we 
+made called npc. (<category name="npc"/>) see above building for example how and where to place it.
+The usage tag I used was <usage name="NPC" /> this is a default the game has already.
+		
+****************************************	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

@@ -1,0 +1,195 @@
+****** install notes ******
+First make sure you back up your files before adding any new code!
+
+Remember to remove any old code before placing mine in 
+(for objects already in list, some are new and some of mine are newly added.)
+To find out if item/object is already in file, do a search on the name...
+Ie... name="objectnamehere" search the name within the quotes.
+
+So you know where to place the code(s) I have added a comment just above each coded area
+with the name of the file it needs to go in.
+
+For objects needing X and Z cords... You may want to use your own and or add additional 
+coordinates for your object. The ones I use might not be where you want yours at, so just 
+remove mine and place yours in. If you do not know where or how to get coordinates I would
+suggest using the iZurvive Dayz Map Tool. It can be found here... https://www.izurvive.com/
+
+Files names must remain intact. Do not rename a file unless you are making a backup.
+The game only recognizes org file names.
+
+What this file does......
+How to know how much loot a building can spawn in and what you can do to max it out.
+
+******************************************************************************
+First lets start off with the event to spawn in the building.
+In cfgeventspawns.xml you set your cords for where you want the building at like so...
+	
+	<event name="StaticNewsStand">
+		<pos x="13971.520508" z="2826.796875" a="210.000000" />
+	</event>
+	
+******************************************************************************	
+In events.xml we place our building code, like so....
+
+    <event name="StaticNewsStand">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="10" lootmin="10" max="1" min="1" type="land_city_stand_news2"/>
+        </children>
+    </event>	
+
+You will notice that on the child line the lootmin and lootmax are set to 10. this tells the 
+event that the building can have 10 loot spawns. But how do we know it can have 10? For that 
+we go on to the next step.
+******************************************************************************	
+In this example we will be using the News Stand Building.
+In mapgroupproto.xml you will see this building....
+
+		<group name="Land_City_Stand_News2">
+				<usage name="Town" />
+				<container name="lootFloor" lootmax="3">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<tag name="floor" />
+						<point pos="-1.394749 -1.274980 -1.467541" range="0.386719" height="0.746793" />
+						<point pos="-2.859683 -1.276101 -0.142190" range="0.410156" height="1.025390" />
+						<point pos="-2.789347 -1.275743 -1.474118" range="0.460938" height="0.777977" />
+						<point pos="-1.553518 -1.275761 1.417546" range="0.545654" height="1.364135" />
+				</container>
+				<container name="lootshelves" lootmax="3">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="books" />
+						<tag name="shelves" />
+						<point pos="-3.032413 -0.339241 0.825155" range="0.244886" height="0.612215" />
+						<point pos="-2.816331 -0.310748 -0.840539" range="0.340625" height="0.851563" />
+						<point pos="-2.897347 -0.320963 -1.596292" range="0.340625" height="0.851563" />
+						<point pos="-2.801010 -0.309422 1.398674" range="0.375000" height="0.937500" />
+				</container>
+				<container name="lootweapons" lootmax="2">
+						<category name="weapons" />
+						<category name="explosives" />
+						<point pos="-3.126306 -0.686172 0.003602" range="0.100000" height="0.250000" />
+						<point pos="-1.320649 -0.383808 -1.663223" range="0.269287" height="0.673217" />
+				</container>
+		</group>
+		
+Now to under stand the loot functions we will break this down and edit this a bit to make it work better.
+What are the spawn points ? they are lines of code that look like this....
+<point pos="-1.394749 -1.274980 -1.467541" range="0.386719" height="0.746793" />
+******************************************************************************
+This area controls how much can spawn on the floor. where it shows lootmax="3", that is telling it
+to use 3 out of the 4 possible spawn points listed below.
+
+	<container name="lootFloor" lootmax="3"><!-- total of spawn points to use -->
+		<category name="tools" />
+		<category name="containers" />
+		<category name="clothes" />
+		<tag name="floor" />
+		<point pos="-1.394749 -1.274980 -1.467541" range="0.386719" height="0.746793" /><!-- 1st spawn point -->
+		<point pos="-2.859683 -1.276101 -0.142190" range="0.410156" height="1.025390" /><!-- 2nd spawn point -->
+		<point pos="-2.789347 -1.275743 -1.474118" range="0.460938" height="0.777977" /><!-- 3rd spawn point -->
+		<point pos="-1.553518 -1.275761 1.417546" range="0.545654" height="1.364135" /><!-- 4th spawn point -->
+	</container>
+
+The next is for the shelves and last is for the weapon placements. 
+******************************************************************************
+Now lets maxumize this to allow you to use the most out of your building.
+1st we are going to add up all the spawn points for each area. In the lootFloor we will change the total to 4
+so we are using all of the spawn points it has
+
+				<container name="lootFloor" lootmax="4">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<tag name="floor" />
+						<point pos="-1.394749 -1.274980 -1.467541" range="0.386719" height="0.746793" />
+						<point pos="-2.859683 -1.276101 -0.142190" range="0.410156" height="1.025390" />
+						<point pos="-2.789347 -1.275743 -1.474118" range="0.460938" height="0.777977" />
+						<point pos="-1.553518 -1.275761 1.417546" range="0.545654" height="1.364135" />
+				</container>
+
+Next we will do the same for the next 2 areas so when done it looks like this now.
+
+				<container name="lootshelves" lootmax="4">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="books" />
+						<tag name="shelves" />
+						<point pos="-3.032413 -0.339241 0.825155" range="0.244886" height="0.612215" />
+						<point pos="-2.816331 -0.310748 -0.840539" range="0.340625" height="0.851563" />
+						<point pos="-2.897347 -0.320963 -1.596292" range="0.340625" height="0.851563" />
+						<point pos="-2.801010 -0.309422 1.398674" range="0.375000" height="0.937500" />
+				</container>
+				<container name="lootweapons" lootmax="2">
+						<category name="weapons" />
+						<category name="explosives" />
+						<point pos="-3.126306 -0.686172 0.003602" range="0.100000" height="0.250000" />
+						<point pos="-1.320649 -0.383808 -1.663223" range="0.269287" height="0.673217" />
+				</container>
+
+Now that we have maxed out each area, lets count them all up. look at each Lootmax number
+which is now 4,4,2 so we have a total of 10 now. that total goes at the top like so
+
+<group name="Land_City_Stand_News2"> becomes <group name="Land_City_Stand_News2" lootmax="10">
+
+The final code shoul look like this.....
+
+		<group name="Land_City_Stand_News2" lootmax="10">
+				<usage name="Town" />
+				<container name="lootFloor" lootmax="4">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<tag name="floor" />
+						<point pos="-1.394749 -1.274980 -1.467541" range="0.386719" height="0.746793" />
+						<point pos="-2.859683 -1.276101 -0.142190" range="0.410156" height="1.025390" />
+						<point pos="-2.789347 -1.275743 -1.474118" range="0.460938" height="0.777977" />
+						<point pos="-1.553518 -1.275761 1.417546" range="0.545654" height="1.364135" />
+				</container>
+				<container name="lootshelves" lootmax="4">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="books" />
+						<tag name="shelves" />
+						<point pos="-3.032413 -0.339241 0.825155" range="0.244886" height="0.612215" />
+						<point pos="-2.816331 -0.310748 -0.840539" range="0.340625" height="0.851563" />
+						<point pos="-2.897347 -0.320963 -1.596292" range="0.340625" height="0.851563" />
+						<point pos="-2.801010 -0.309422 1.398674" range="0.375000" height="0.937500" />
+				</container>
+				<container name="lootweapons" lootmax="2">
+						<category name="weapons" />
+						<category name="explosives" />
+						<point pos="-3.126306 -0.686172 0.003602" range="0.100000" height="0.250000" />
+						<point pos="-1.320649 -0.383808 -1.663223" range="0.269287" height="0.673217" />
+				</container>
+		</group>
+
+Now you can even choose to edit the categories and usage tags it has to better suit your needs.
+I hope this helps you better understand how these tie in together and what you can do with them.
+
+If you want to make custom categories to fine tune this even more please look at my file 
+Making-Custom-Catagories-For-Loot-Drops-By-bhaalshad.txt
+
+****************************************	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)

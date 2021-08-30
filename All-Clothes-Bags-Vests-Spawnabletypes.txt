@@ -1,0 +1,984 @@
+****** install notes ******
+You will have to find all the clothes, vests and bags and remove them in cfgspawnabletypes before placing this code in.
+You can create your own custom randompresets or use the ones below.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+A lot of clothes, vests and bags were not in cfgspawnabletypes so I gathered all of the clothes, vests and bags and added them with randompresets. Plate Carrier, Smersh Vest and Belts are included with their designated attachments.
+
+****************************************
+<!-- 1st cfgspawnabletypes.xml Replace Entry -->
+
+<!--Clothes, Bags and Vests-->
+<type name="AliceBag_Black">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="AliceBag_Camo">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="AliceBag_Green">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="AssaultBag_Black">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="AssaultBag_Green">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="AssaultBag_Ttsko">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="BDUJacket">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="BDUPants">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="Blouse_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Blouse_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Blouse_Violet">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Blouse_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_Maroon">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_Olive">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="BomberJacket_SkyBlue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Beetcheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Blackcheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Browncheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Pink">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Breeches_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPantsMidi_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPantsMidi_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPantsMidi_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPantsMidi_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPantsMidi_Violet">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPants_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPants_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPants_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPants_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CanvasPants_Violet">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CargoPants_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CargoPants_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CargoPants_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CargoPants_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CargoPants_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ChernarusSportShirt">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ChestHolster">
+		<cargo chance="1.00">
+			<item name="Deagle" chance="0.50" />
+			<item name="Engraved1911" chance="0.50" />
+		</cargo>
+	</type>
+<type name="ChildBag_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ChildBag_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ChildBag_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CivilianBelt">
+		<cargo chance="1.00">
+			<item name="Canteen" chance="0.50" />
+		</cargo>
+	</type>
+<type name="CourierBag">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CoyoteBag_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="CoyoteBag_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DenimJacket">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DryBag_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DryBag_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DryBag_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DryBag_Orange">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DryBag_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="DryBag_Yellow">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="FirefighterJacket_Beige">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="FirefighterJacket_Black">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="FirefightersPants_Beige">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="FirefightersPants_Black">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="FurCourierBag">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="FurImprovisedBag">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="GorkaEJacket_Autumn">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaEJacket_Flat">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaEJacket_PautRev">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaEJacket_Summer">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaPants_Autumn">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaPants_Flat">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaPants_PautRev">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="GorkaPants_Summer">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="HighCapacityVest_Black">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="HighCapacityVest_Olive">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="HikingJacket_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="HikingJacket_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="HikingJacket_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="HikingJacket_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Hoodie_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Hoodie_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Hoodie_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Hoodie_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Hoodie_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Hoodie_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="HunterPants_Autumn">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HunterPants_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HunterPants_Spring">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HunterPants_Summer">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HunterPants_Winter">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingBag">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingJacket_Autumn">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingJacket_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingJacket_Spring">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingJacket_Summer">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingJacket_Winter">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="HuntingVest">
+		<cargo preset="mixHunter" />
+	</type>
+<type name="ImprovisedBag">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Jeans_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Jeans_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Jeans_BlueDark">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Jeans_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Jeans_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Jeans_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitJacket_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitJacket_Gray">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitJacket_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitJacket_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitPants_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitPants_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitPants_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="JumpsuitPants_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LabCoat">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="LeatherBelt_Beige">
+		<cargo chance="1.00">
+			<item name="LeatherKnifeSheath" chance="1.00" />
+			<item name="HuntingKnife" chance="1.00" />
+		</cargo>
+	</type>
+<type name="LeatherBelt_Black">
+		<cargo chance="1.00">
+			<item name="LeatherKnifeSheath" chance="1.00" />
+			<item name="HuntingKnife" chance="1.00" />
+		</cargo>
+	</type>
+<type name="LeatherBelt_Brown">
+		<cargo chance="1.00">
+			<item name="LeatherKnifeSheath" chance="1.00" />
+			<item name="HuntingKnife" chance="1.00" />
+		</cargo>
+	</type>
+<type name="LeatherBelt_Natural">
+		<cargo chance="1.00">
+			<item name="LeatherKnifeSheath" chance="1.00" />
+			<item name="HuntingKnife" chance="1.00" />
+		</cargo>
+	</type>
+<type name="LeatherJacket_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherJacket_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherJacket_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherJacket_Natural">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherKnifeSheath">
+		<cargo chance="1.00">
+			<item name="HuntingKnife" chance="1.00" />
+		</cargo>
+	</type>
+<type name="LeatherPants_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherPants_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherPants_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherPants_Natural">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherSack_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherSack_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherSack_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherSack_Natural">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherShirt_Natural">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherStorageVest_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherStorageVest_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherStorageVest_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="LeatherStorageVest_Natural">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="M65Jacket_Black">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="M65Jacket_Khaki">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="M65Jacket_Olive">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="M65Jacket_Tan">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="ManSuit_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_DarkGrey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_Khaki">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_LightGrey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ManSuit_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MedicalScrubsPants_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="MedicalScrubsPants_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="MedicalScrubsPants_White">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="MedicalScrubsShirt_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="MedicalScrubsShirt_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="MedicalScrubsShirt_White">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="MilitaryBelt">
+	<cargo chance="1.00">
+		<item name="Canteen" chance="1.00" />
+	</cargo>
+</type>
+<type name="MiniDress_BlueChecker">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_BlueWithDots">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_BrownChecker">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_GreenChecker">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_Pink">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_PinkChecker">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_RedChecker">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MiniDress_WhiteChecker">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MountainBag_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MountainBag_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MountainBag_Orange">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="MountainBag_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="NBCJacketGray">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="NBCPantsGray">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="NurseDress_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="NurseDress_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ParamedicJacket_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="ParamedicJacket_Crimson">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="ParamedicJacket_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="ParamedicPants_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="ParamedicPants_Crimson">
+		<cargo preset="toolsMedic" />
+	</type>
+<type name="ParamedicPants_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="PlateCarrierVest">
+		<attachments chance="1.00">
+			<item name="PlateCarrierPouches" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PlateCarrierHolster" chance="1.00" />
+		</attachments>
+	</type>	
+<type name="PoliceJacket">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PoliceJacketOrel">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PolicePants">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PolicePantsOrel">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PoliceVest">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PressVest_Blue">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PressVest_LightBlue">
+		<cargo preset="toolsPolice" />
+	</type>
+<type name="PrisonUniformJacket">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="PrisonUniformPants">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Orange">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Violet">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="QuiltedJacket_Yellow">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Orange">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Pink">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Raincoat_Yellow">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="RidersJacket_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Shirt_BlueCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Shirt_BlueCheckBright">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Shirt_GreenCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Shirt_PlaneBlack">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Shirt_RedCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Shirt_WhiteCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ShortJeans_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ShortJeans_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ShortJeans_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ShortJeans_Darkblue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ShortJeans_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="ShortJeans_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Skirt_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Skirt_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Skirt_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Skirt_Yellow">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_DarkGrey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_Khaki">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_LightGrey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SlacksPants_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="SmershBag">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershVest">
+		<attachments chance="1.00">
+			<item name="SmershBag" chance="1.00" />
+		</attachments>
+	</type>
+<type name="Sweater_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Sweater_Gray">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Sweater_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="Sweater_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_Grey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_OrangeWhiteStripes">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_RedBlackStripes">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TShirt_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TTsKOJacket_Camo">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="TacticalShirt_Black">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="TacticalShirt_Grey">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="TacticalShirt_Olive">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="TacticalShirt_Tan">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="TaloonBag_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TaloonBag_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TaloonBag_Orange">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TaloonBag_Violet">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TelnyashkaShirt">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TortillaBag">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="TrackSuitJacket_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitJacket_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitJacket_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitJacket_LightBlue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitJacket_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitPants_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitPants_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitPants_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitPants_LightBlue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="TrackSuitPants_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="UKAssVest_Black">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="UKAssVest_Camo">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="UKAssVest_Khaki">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="UKAssVest_Olive">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="USMCJacket_Desert">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="USMCJacket_Woodland">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="USMCPants_Desert">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="USMCPants_Woodland">
+		<cargo preset="mixArmy" />
+	</type>
+<type name="WaterproofBag_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WaterproofBag_Orange">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WaterproofBag_Yellow">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_Brown">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_DarkGrey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_Khaki">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_LightGrey">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WomanSuit_White">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_Beige">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_Black">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_BlackCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_Blue">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_BlueCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_BrownCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_Green">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_GreyCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_Red">
+		<cargo preset="mixCustom" />
+	</type>
+<type name="WoolCoat_RedCheck">
+		<cargo preset="mixCustom" />
+	</type>
+<!--Clothes, Bags and Vests-->	
+
+<!-- 2nd cfgrandompresets.xml New Entry -->
+
+        <cargo chance="1.00" name="mixCustom">
+				<item name="HuntingKnife" chance="0.125" />
+				<item name="WaterBottle" chance="0.125" />
+				<item name="Compass" chance="0.125" />
+				<item name="PurificationTablets" chance="0.125" />
+				<item name="BandageDressing" chance="0.125" />
+				<item name="CanOpener" chance="0.125" />
+				<item name="Roadflare" chance="0.125" />
+				<item name="BakedBeansCan" chance="0.125" />
+		</cargo>
+
+<!-- 3rd cfgrandompresets.xml Optional Replace Entry -->
+
+        <cargo chance="1.00" name="mixArmy">
+				<item name="CanOpener" chance="0.20" />
+				<item name="TacticalBaconCan" chance="0.20" />
+				<item name="Canteen" chance="0.20" />
+				<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
+				<item name="AmmoBox_762x54_20Rnd" chance="0.20" />
+		</cargo>
+		<cargo chance="1.00" name="toolsPolice">
+				<item name="Battery9V" chance="0.15" />
+				<item name="PersonalRadio" chance="0.15" />
+				<item name="Flashlight" chance="0.15" />
+				<item name="Roadflare" chance="0.15" />
+				<item name="CombatKnife" chance="0.15" />
+				<item name="Morphine" chance="0.15" />
+				<item name="BandageDressing" chance="0.15" />
+		</cargo>
+		<cargo chance="1.00" name="toolsMedic">
+				<item name="SalineBag" chance="0.10" />
+				<item name="BandageDressing" chance="0.10" />
+				<item name="BloodBagEmpty" chance="0.10" />
+				<item name="BloodTestKit" chance="0.10" />
+				<item name="StartKitIV" chance="0.10" />
+				<item name="PurificationTablets" chance="0.10" />
+				<item name="CharcoalTablets" chance="0.10" />
+				<item name="PainkillerTablets" chance="0.10" />
+				<item name="VitaminBottle" chance="0.10" />
+				<item name="TetracyclineAntibiotics" chance="0.10" />
+		</cargo>
+		<cargo chance="1.00" name="mixHunter">
+				<item name="Flashlight" chance="0.08" />
+				<item name="Matchbox" chance="0.08" />
+				<item name="Roadflare" chance="0.08" />
+				<item name="HuntingKnife" chance="0.08" />
+				<item name="CanOpener" chance="0.08" />
+				<item name="BandageDressing" chance="0.08" />
+				<item name="AmmoBox_308Win_20Rnd" chance="0.08" />
+				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+				<item name="AmmoBox_762x39_20Rnd" chance="0.08" />
+				<item name="AmmoBox_762x54_20Rnd" chance="0.08" />
+				<item name="TunaCan" chance="0.08" />
+				<item name="BakedBeansCan" chance="0.08" />
+		</cargo>
+****************************************	
+Org File Created by SmalllZzy. For more help files for DayZ come visit us at lootz.net & DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

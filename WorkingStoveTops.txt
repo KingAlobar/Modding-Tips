@@ -1,0 +1,282 @@
+****** install notes ******
+First make sure you back up your files before adding any new code!
+****************************************
+*** Working StoveTops EVERYWHERE!(mostly). ***
+*** Adding Working Stove Tops To All Citys. Berrysean1420-s1 ***
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+This Will Some StoveTops with Attachment Cooking Pot To Your Livonia Map In All Major And Most Smaller Towns And Citys.
+ 
+
+
+****************************************
+1st MapGroupProto.Xml New Entry
+
+		<group name="OvensNotToHot" lootmax="10">				
+			<container name="lootFloor" lootmax="1">
+			</container>
+				<dispatch>
+                 <proxy type="OvenIndoor" pos="-1.315 -1.9 0.12" rpy="0.0 0.0 0.0" />			
+                   <proxy type="Matchbox" pos="-1.54 -1.0 0.05" rpy="0.0 0.0 0.0" />			
+              <proxy type="BearSteakMeat" pos="-1.54 -1.0 0.12" rpy="0.0 0.0 0.0" />		
+                <proxy type="WoodenPlank" pos="-1.66 -0.97 -0.9" rpy="0.0 0.0 0.0" />		
+                <proxy type="WoodenPlank" pos="-1.66 -0.77 -0.9" rpy="0.0 0.0 0.0" />	
+                <proxy type="WoodenPlank" pos="-1.66 -0.57 -0.9" rpy="0.0 0.0 0.0" />	
+                <proxy type="WoodenPlank" pos="-1.66 -0.37 -0.9" rpy="0.0 0.0 0.0" />
+                <proxy type="WoodenPlank" pos="-1.06 -1.15 -1.2" rpy="0.0 90.0 0.0" />	
+                <proxy type="WoodenPlank" pos="-1.06 -1.15 -1.0" rpy="0.0 90.0 0.0" />	
+                 <proxy type="SteakKnife" pos="-1.06 -1.0 -1.0" rpy="180.0 0.0 0.0" />	
+                <proxy type="WoodenPlank" pos="-1.66 -0.97 -0.32" rpy="-30.0 0.0 90.0" />	
+                <proxy type="WoodenPlank" pos="-1.66 -0.97 -1.35" rpy="-150.0 0.0 -90.0" />	
+                      <proxy type="Honey" pos="-1.66 -0.35 -0.9" rpy="0.0 0.0 0.0" />			
+                      <proxy type="Honey" pos="-1.66 -0.55 -0.8 " rpy="0.0 0.0 0.0" />			
+                      <proxy type="Honey" pos="-1.66 -0.75 -0.7 " rpy="0.0 0.0 0.0" />			
+				</dispatch>
+		</group>
+		<group name="OvensNotToHot2" lootmax="10">				
+			<container name="lootFloor" lootmax="1">
+			</container>
+				<dispatch>
+                 <proxy type="OvenIndoor" pos="-1.422 -1.9 -1.0" rpy="0.0 0.0 0.0" />			
+                   <proxy type="Matchbox" pos="-1.66 -1.0 -1.05" rpy="0.0 0.0 0.0" />		
+				</dispatch>
+		</group>
+		<group name="OvensNotToHot3" lootmax="10">				
+			<container name="lootFloor" lootmax="1">
+			</container>
+				<dispatch>
+                 <proxy type="OvenIndoor" pos="-1.66 -1.45 -2.1" rpy="0.0 0.0 0.0" />			
+                   <proxy type="Matchbox" pos="-1.71 -0.5 -2.3" rpy="0.0 0.0 0.0" />		
+				</dispatch>
+		</group>
+		**********************************
+		2nd Entry MapGroupPos.Xml New Entry
+		
+	<group name="OvensNotToHot" pos="12222.058594 250.778854 4713.509277" rpy="-0.000000 0.000000 147.314835" a="-57.314838" />
+    <group name="OvensNotToHot" pos="11603.038086 321.812531 4852.313477" rpy="-0.000000 0.000000 106.151970" a="-16.151970" />
+    <group name="OvensNotToHot" pos="11538.112305 187.268234 9798.091797" rpy="-0.000000 0.000000 -39.455013" a="129.455017" />
+    <group name="OvensNotToHot" pos="11298.652344 339.729828 4357.005371" rpy="-0.000000 0.000000 -117.931526" a="-152.068451" />
+    <group name="OvensNotToHot" pos="10879.352539 178.018829 11242.772461" rpy="-0.000000 0.000000 38.400829" a="51.599163" />
+    <group name="OvensNotToHot" pos="10766.767578 178.489990 11086.083008" rpy="-0.000000 0.000000 47.265598" a="42.734394" />
+    <group name="OvensNotToHot" pos="8958.250000 344.456818 4427.718750" rpy="-0.000000 0.000000 -0.247079" a="90.247070" />
+    <group name="OvensNotToHot" pos="7988.977051 181.241760 11573.802734" rpy="-0.000000 0.000000 -90.058846" a="-179.941147" />
+    <group name="OvensNotToHot" pos="6823.125488 348.063354 4699.269043" rpy="-0.000000 0.000000 130.646347" a="-40.646355" />
+    <group name="OvensNotToHot" pos="6022.455078 388.203979 4245.958984" rpy="-0.000000 0.000000 -117.278374" a="-152.721619" />
+    <group name="OvensNotToHot" pos="6038.131348 394.218872 4083.136719" rpy="-0.000000 0.000000 128.894089" a="-38.894093" />
+    <group name="OvensNotToHot" pos="5175.575195 180.471802 9696.476563" rpy="-0.000000 0.000000 56.179298" a="33.820702" />
+    <group name="OvensNotToHot" pos="5123.694824 182.350327 9556.600586" rpy="-0.000000 0.000000 -44.471512" a="134.471512" />
+    <group name="OvensNotToHot" pos="4025.078125 209.741241 7984.063965" rpy="-0.000000 0.000000 -2.861675" a="92.861671" />
+    <group name="OvensNotToHot" pos="3856.611816 253.178162 11614.387695" rpy="-0.000000 0.000000 129.287109" a="-39.287117" />
+    <group name="OvensNotToHot" pos="3727.203125 254.232574 11763.282227" rpy="-0.000000 0.000000 -141.068481" a="-128.931503" />
+    <group name="OvensNotToHot" pos="3654.569580 251.756592 11871.476563" rpy="-0.000000 0.000000 147.017944" a="-57.017948" />
+    <group name="OvensNotToHot" pos="3147.838379 507.557983 2067.704102" rpy="-0.000000 0.000000 -82.158447" a="172.158447" />
+    <group name="OvensNotToHot" pos="2199.372314 277.735321 6759.835938" rpy="-0.000000 0.000000 -42.321533" a="132.321533" />
+    <group name="OvensNotToHot" pos="1999.462158 230.170990 6878.095215" rpy="-0.000000 0.000000 -177.915649" a="-92.084328" />
+    <group name="OvensNotToHot" pos="1994.211914 239.226807 6786.669434" rpy="-0.000000 0.000000 -96.058701" a="-173.941284" />
+    <group name="OvensNotToHot" pos="1877.460205 195.649429 7435.615723" rpy="-0.000000 0.000000 172.791306" a="-82.791306" />
+    <group name="OvensNotToHot" pos="1758.281616 247.331848 6939.104492" rpy="-0.000000 0.000000 84.986282" a="5.013711" />
+    <group name="OvensNotToHot" pos="1636.659668 272.086334 9798.426758" rpy="-0.000000 0.000000 -5.232598" a="95.232590" />
+    <group name="OvensNotToHot" pos="1344.245483 485.778931 1711.588989" rpy="-0.000000 0.000000 -3.553355" a="93.553352" />
+    <group name="OvensNotToHot" pos="1102.682007 251.428589 5248.852539" rpy="-0.000000 0.000000 127.403824" a="-37.403831" />
+    <group name="OvensNotToHot" pos="1056.003662 199.086075 7267.770508" rpy="-0.000000 0.000000 -74.767960" a="164.767960" />
+    <group name="OvensNotToHot" pos="865.959412 244.527603 5532.356934" rpy="-0.000000 0.000000 133.657349" a="-43.657356" />    
+	
+	<group name="OvensNotToHot2" pos="8828.117188 318.006592 6649.618652" rpy="-0.000000 0.000000 -63.530720" a="153.530716" />
+    <group name="OvensNotToHot2" pos="8449.553711 179.904739 12009.025391" rpy="-0.000000 0.000000 -4.812186" a="94.812180" />
+    <group name="OvensNotToHot2" pos="7243.874023 240.066406 12365.315430" rpy="-0.000000 0.000000 123.188820" a="-33.188824" />
+    <group name="OvensNotToHot2" pos="6681.264160 176.921143 11142.285156" rpy="-0.000000 0.000000 -32.185043" a="122.185043" />
+    <group name="OvensNotToHot2" pos="6441.107422 185.482956 11195.359375" rpy="-0.000000 0.000000 5.853838" a="84.146156" />
+    <group name="OvensNotToHot2" pos="6302.145508 182.186813 10470.456055" rpy="-0.000000 0.000000 -134.448135" a="-135.551849" />
+    <group name="OvensNotToHot2" pos="6213.666504 183.596481 10355.928711" rpy="-0.000000 0.000000 106.087029" a="-16.087036" />
+    <group name="OvensNotToHot2" pos="6216.716797 371.902588 4264.071777" rpy="-0.000000 0.000000 -32.301647" a="122.301651" />
+    <group name="OvensNotToHot2" pos="6004.839355 384.231140 4341.407715" rpy="-0.000000 0.000000 145.863525" a="-55.863537" />
+    <group name="OvensNotToHot2" pos="5822.051270 410.485138 4029.875244" rpy="-0.000000 0.000000 149.459503" a="-59.459511" />
+    <group name="OvensNotToHot2" pos="5210.372070 178.572906 9603.756836" rpy="-0.000000 0.000000 56.102528" a="33.897469" />
+    <group name="OvensNotToHot2" pos="4883.079590 309.541626 7459.804199" rpy="-0.000000 0.000000 -47.015594" a="137.015594" />
+    <group name="OvensNotToHot2" pos="3256.734619 491.517487 2040.876343" rpy="-0.000000 0.000000 8.869111" a="81.130882" />
+    <group name="OvensNotToHot2" pos="2973.448242 273.423157 6565.049316" rpy="-0.000000 0.000000 158.673904" a="-68.673904" />
+    <group name="OvensNotToHot2" pos="1912.303589 208.312286 7284.737793" rpy="-0.000000 0.000000 62.160652" a="27.839342" />
+    <group name="OvensNotToHot2" pos="938.502747 246.395905 5427.942383" rpy="-0.000000 0.000000 146.628296" a="-56.628296" />
+    <group name="OvensNotToHot2" pos="670.467773 319.681519 4296.195313" rpy="-0.000000 0.000000 -122.275009" a="-147.724976" />    
+	
+	<group name="OvensNotToHot3" pos="12430.703125 204.473221 11937.481445" rpy="-0.000000 0.000000 -59.781082" a="149.781082" />
+    <group name="OvensNotToHot3" pos="12153.672852 320.835327 913.010803" rpy="-0.000000 0.000000 -125.187103" a="-144.812881" />
+    <group name="OvensNotToHot3" pos="11656.208008 193.687088 9525.332031" rpy="-0.000000 0.000000 -48.162083" a="138.162079" />
+    <group name="OvensNotToHot3" pos="11558.350586 187.969345 9810.232422" rpy="-0.000000 0.000000 -133.879288" a="-136.120697" />
+    <group name="OvensNotToHot3" pos="11489.906250 186.207642 9619.790039" rpy="-0.000000 0.000000 -6.958613" a="96.958611" />
+    <group name="OvensNotToHot3" pos="11477.622070 182.807007 9508.390625" rpy="-0.000000 0.000000 -34.728168" a="124.728165" />
+    <group name="OvensNotToHot3" pos="11494.230469 246.764069 1235.719482" rpy="-0.000000 0.000000 -5.011545" a="95.011536" />
+    <group name="OvensNotToHot3" pos="11270.419922 217.874069 741.841370" rpy="-0.000000 0.000000 46.482414" a="43.517578" />
+    <group name="OvensNotToHot3" pos="10994.675781 176.113785 11278.762695" rpy="-0.000000 0.000000 129.746826" a="-39.746834" />
+    <group name="OvensNotToHot3" pos="10912.139648 176.046249 11107.296875" rpy="-0.000000 0.000000 70.296280" a="19.703712" />
+    <group name="OvensNotToHot3" pos="10848.568359 176.127533 11147.607422" rpy="-0.000000 0.000000 49.346214" a="40.653778" />
+    <group name="OvensNotToHot3" pos="10798.471680 185.245148 10887.736328" rpy="-0.000000 0.000000 -128.309448" a="-141.690536" />
+    <group name="OvensNotToHot3" pos="10555.989258 180.444107 11163.791992" rpy="-0.000000 0.000000 147.682632" a="-57.682632" />
+    <group name="OvensNotToHot3" pos="9566.575195 207.419449 10710.894531" rpy="-0.000000 0.000000 162.735855" a="-72.735870" />
+    <group name="OvensNotToHot3" pos="9156.670898 257.895264 370.938202" rpy="-0.000000 0.000000 -140.330963" a="-129.669006" />
+    <group name="OvensNotToHot3" pos="8787.544922 315.621765 6578.082520" rpy="-0.000000 0.000000 -136.955154" a="-133.044830" />
+    <group name="OvensNotToHot3" pos="6582.657715 177.736221 10868.597656" rpy="-0.000000 0.000000 -137.738342" a="-132.261642" />
+    <group name="OvensNotToHot3" pos="6464.882324 176.844131 11056.606445" rpy="-0.000000 0.000000 -88.608116" a="178.608109" />
+    <group name="OvensNotToHot3" pos="6249.821289 371.232880 4250.037598" rpy="-0.000000 0.000000 85.415939" a="4.584058" />
+    <group name="OvensNotToHot3" pos="6008.528809 395.982513 4068.181152" rpy="-0.000000 0.000000 95.507858" a="-5.507860" />
+    <group name="OvensNotToHot3" pos="5871.895508 400.109131 4098.284668" rpy="-0.000000 0.000000 158.871033" a="-68.871040" />
+    <group name="OvensNotToHot3" pos="5776.405273 193.022980 11603.583008" rpy="-0.000000 0.000000 41.620064" a="48.379932" />
+    <group name="OvensNotToHot3" pos="5130.132324 189.253632 10087.467773" rpy="-0.000000 0.000000 38.900227" a="51.099766" />
+    <group name="OvensNotToHot3" pos="4846.796875 201.737885 10003.155273" rpy="-0.000000 0.000000 137.850555" a="-47.850563" />
+    <group name="OvensNotToHot3" pos="3920.244385 249.027023 11741.831055" rpy="-0.015465 0.012335 -141.425339" a="-128.574646" />
+    <group name="OvensNotToHot3" pos="3946.159912 212.971283 7982.145996" rpy="-0.000000 0.000000 72.769310" a="17.230686" />
+    <group name="OvensNotToHot3" pos="3329.545410 495.764496 2093.865234" rpy="-0.000000 0.000000 -19.605227" a="109.605225" />
+    <group name="OvensNotToHot3" pos="2082.098877 210.259644 7459.523926" rpy="-0.000000 0.000000 53.563290" a="36.436703" />
+    <group name="OvensNotToHot3" pos="2006.543823 222.620132 7048.443359" rpy="-0.000000 0.000000 -89.698509" a="179.698517" />
+    <group name="OvensNotToHot3" pos="1985.699219 235.186172 6812.168457" rpy="-0.000000 0.000000 73.187080" a="16.812916" />
+    <group name="OvensNotToHot3" pos="1794.885742 211.930069 7260.750000" rpy="-0.000000 0.000000 -129.421249" a="-140.578735" />
+    <group name="OvensNotToHot3" pos="1677.024170 379.582794 3455.543213" rpy="-0.000000 0.000000 177.579010" a="-87.579010" />
+    <group name="OvensNotToHot3" pos="1154.576416 188.578415 7394.964355" rpy="-0.000000 0.000000 -177.529114" a="-92.470856" />
+    <group name="OvensNotToHot3" pos="1131.261597 214.520157 7140.675781" rpy="-0.000000 0.000000 -138.729340" a="-131.270645" />
+    <group name="OvensNotToHot3" pos="1049.939819 263.492401 5753.225098" rpy="-0.000000 0.000000 164.649384" a="-74.649384" />
+    <group name="OvensNotToHot3" pos="933.479919 246.159592 5441.580566" rpy="-0.000000 0.000000 -122.238235" a="-147.761749" /> 
+		********************************
+		3rs Entry LimitsDeffinition.Xml New Entry
+
+			<category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+		******************
+		4th entry Types.Xml New Entry /If You Have Already Replace.
+		
+  <type name="OvenIndoor">
+    <nominal>999</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1</restock>
+    <min>999</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />		
+	<category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+  </type>
+  <type name="Matchbox">
+    <nominal>150</nominal>
+    <lifetime>7200</lifetime>
+    <restock>0</restock>
+    <min>150</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		 <category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+  </type>
+  <type name="BearSteakMeat">
+    <nominal>999</nominal>
+    <lifetime>7200</lifetime>
+    <restock>1</restock>
+    <min>999</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+			 <category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+  </type>
+  <type name="SteakKnife">
+    <nominal>99</nominal>
+    <lifetime>7200</lifetime>
+    <restock>1</restock>
+    <min>99</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		 <category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+  </type>
+  <type name="WoodenPlank">
+    <nominal>999</nominal>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <min>999</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		 <category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+  </type>
+  <type name="Honey">
+    <nominal>125</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1</restock>
+    <min>125</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		 <category name="None"/>
+        <tag name="Nothing"/>
+		<usage name="Nada"/>
+  </type>
+  *********************
+  5th entry Spawnabletypes.Xml New Entry
+  
+	<type name="OvenIndoor">
+        <cargo chance="1.00">
+            <item name="PetrolLighter" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="Lard" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="Lard" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="BearSteakMeat" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="BearSteakMeat" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="BearSteakMeat" chance="1.00" />
+        </cargo>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Pot" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Rag" />
+        </attachments>
+    </type>
+		
+****************************************    
+Org File Created by Your Berrysean1420-s1. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)

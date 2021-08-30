@@ -1,0 +1,125 @@
+--------------------------------------------------------------------------------
+Follow these steps below.
+
+It's important to note:
+The cargo space of the clothing
+The cargo space of the items
+
+This guide is a good start to fill the NPC: 
+
+1 - Select NPC with clothing. Test, reset and confirm clothing is as desired.
+2 - Fill the clothing untill full. Test, reset server. 
+3 - Fill the rest of the clothing items by testing and resetting server to confirm changes.
+4 - Note your locations of clothing with a NailBox to give visual aide of the end of a piece of clothing. 
+
+---------------------------------------------------------------------------------
+<type name="SurvivorM_Denis">							<!--The Builder-->
+        <attachments chance="1.00">						<!--Head 1st-->
+            <item name="ConstructionHelmet_White" /> 	
+        </attachments>
+        <attachments chance="1.00">						<!--Jacket 2nd-->
+            <item name="M65Jacket_Tan" />				
+        </attachments>
+        <attachments chance="1.00">						<!--Vest 3rd-->	
+            <item name="ReflexVest" />
+        </attachments>
+        <attachments chance="1.00">						<!--Pants 3rd -->
+            <item name="CargoPants_Green" />
+        </attachments>
+        <attachments chance="1.00">						<!--Boots 4th-->
+            <item name="WorkingBoots_Brown" />
+        </attachments>
+        <attachments chance="1.00"> 					<!--Gloves 5th-->
+            <item name="WorkingGloves_Brown" />
+        </attachments>
+        <attachments chance="1.00">						<!--Bag 6th-->
+            <item name="DryBag_Black" />				
+        </attachments>
+        <attachments chance="1.00"> 					<!--Start of Shirt-->
+            <item name="BarbedWire" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BarbedWire" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BarbedWire" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BarbedWire" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MetalWire" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Pliers" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NailBox" />
+        </attachments> 									<!--End of Shirt-->
+        <attachments chance="1.00">						<!--Pants-->
+            <item name="CombinationLock4" /> 
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HackSaw" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Whetstone" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NailBox" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NailBox" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NailBox" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Whetstone" />
+        </attachments>									<!--End of Pants-->
+        <attachments chance="1.00"> 					<!--Start of bag-->
+            <item name="Hammer" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchet" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hammer" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchet" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NailBox" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HandSaw" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HandSaw" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Whetstone" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Whetstone" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Whetstone" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="DuctTape" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="DuctTape" />
+        </attachments>					<!--End of Bag-->
+        <attachments chance="1.00">		<!--Left shoulder -->
+            <item name="SledgeHammer" /> 
+        </attachments>					
+        <attachments chance="1.00">		<!--Right shoulder-->
+            <item name="Shovel" />
+        </attachments>					
+        <attachments chance="1.00">		<!--Hand Item-->
+            <item name="SledgeHammer" />
+        </attachments>					
+    </type>

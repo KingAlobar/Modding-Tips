@@ -1,0 +1,115 @@
+ 
+ 
+          <!-- This is to simply create ready to light fireplaces, complete ready to use -->
+		  <!-- can be used for an event, or as loot wherever you desire -->
+
+***************************************************************************************************************		  
+		  
+	<!-- cfgspawnabletypes.xml NEW ENTRY -->
+	
+	
+	<type name="Fireplace">
+        <attachments chance="1.00">
+			<item name="Stone" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Tripod" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Pot" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="WoodenStick" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Paper" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Firewood" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Bark_Oak" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Bark_Birch" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="BandageDressing" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PetrolLighter" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="FoxSteakMeat" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="FoxSteakMeat" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="LongWoodenStick" chance="1.00" />
+		</attachments>
+	</type>
+	
+***************************************************************************************************************************************************************
+
+    <!-- types.xml NEW ENTRY -->
+	
+	<type name="PetrolLighter">
+        <nominal>0</nominal>  <!-- if only using item as attachment, this value can be 0 and still be used -->
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+		<!-- !!!the following is my edition for my server but alter usage as desired!!! -->
+        <usage name="Hunting"/>
+        <usage name="Police"/>
+    </type>
+	
+********************************************************************************************************************************************************************
+
+    <!-- Additional Notes -->
+	
+	In the types.xml file, for stone, woodenstick, and firewood
+	as well as the barks if desired, change your quants to 100 -
+	
+	    <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+		
+    This will make your 1/6, 1/4, 1/8 to complete stacks of 4/4, 6/6 8/8 etc.
+	*This will make these items full stacks during crafting in gameplay, all items are still crafted="1" 
+	     and fully functional, but stacks will be full when you craft. if this is undesired then leave them vanilla 
+		 and those items will be simply single items within the fireplace. changing quants will extend your tools lifetime though!!
+    *note : PetrolLighter is fully functional and has its own animation as well, MatchBox can replace this if desired.
+	*FireExtinguisher is also fully functional to put out a fire, but the animation isnt as expected. if desired see below
+	
+	<!-- types.xml NEW ENTRY -->
+	
+	<type name="FireExtinguisher">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Firefighter"/>
+		<value name="Tier12"/>
+    </type>
+	
+***********************************************************************************************************************************************************************
+	
+	<!-- To add books see file by Dafoogle at Donsibleygames.com -->
+	<!-- after that simply add whichever book as an attachment for the fireplace in cfgspawnabletypes.xml -->
+	<!-- This episode brought to you by the letter : Josie Garfunkle -->
+	<!-- Have fun! Stay Safe out there!!! -->
+	
+	
+	

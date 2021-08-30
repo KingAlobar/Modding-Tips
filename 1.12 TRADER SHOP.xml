@@ -1,0 +1,3007 @@
+WARNING: DO NOT ADD ANY TEXT FROM THIS FILE THAT IS NOT CONTAINED WITH BRACKETS. DOING SO WILL BREAK YOUR SERVER ECONOMY.
+READ ALL DIRECTIONS CAREFULLY. MAKE SURE YOU CONTAIN ALL BRACKETS. DO NOT MODIFY THE NOMINALS/MINIMUMS OF ANYTHING WITH THE STORE CATAGORY.
+
+<!-- TYPES.XML -->
+PICK AND CHOOSE WHAT YOU WANT TO BE IN THE STORE BY REPLACING THE ENTRIES YOU WANT TO APPEAR IN THE STORE WITH THE ENTRY FROM THIS FILE.
+USE THIS REPLIT SCRIPT TO QUICKLY MERGE THIS MOD WITH YOUR TYPES FILE AFTER DELETEING THE TYPES YOU DO NOT WANT TO REMOVE FROM THE ECONOMY.
+
+https://replit.com/@tandemswith/Typesxml-IsolatorFOR-USE#index.js
+
+PLACE ALL ENTRIES THAT YOU WANT IN YOUR STORE IN THE TYPES_TO_COMPARE.TXT FILE, AND PLACE YOUR WHOLE TYPES.XML IN THE TYPES_HERE.TXT FILE.
+CLICK SHELL, AND TYPE "node index.js > types.xml" IN THE SHELL CONSOLE.
+
+    <type name="ACOGOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK101_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK101_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK74_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK74_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AKS74U_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AKS74U_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_FoldingBttstck_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_FoldingBttstck_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_PlasticBttstck_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_PlasticBttstck_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_PlasticHndgrd">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_RailHndgrd_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_RailHndgrd_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_Suppressor">
+        <nominal>4</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_WoodBttstck_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_WoodBttstck_Camo">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_WoodHndgrd_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AK_WoodHndgrd_Camo">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="ASVAL">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AirborneMask">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AliceBag_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AliceBag_Camo">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AliceBag_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox">
+        <nominal>4</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_00buck_10rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_12gaRubberSlug_10Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_12gaSlug_10Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_22_50Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_308WinTracer_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_308Win_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_357_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_380_35rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_45ACP_25rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_545x39Tracer_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_545x39_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_556x45Tracer_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_556x45_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_762x39Tracer_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_762x39_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_762x54Tracer_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_762x54_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_9x19_25rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_9x39AP_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="AmmoBox_9x39_20Rnd">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BDUJacket">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BDUPants">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BUISOptic">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BalaclavaMask_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BallisticHelmet_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Bandana_Camopattern">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BaseballCap_Camo">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Bear_Pink">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BoonieHat_DPM">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="BoonieHat_Flecktran">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="CombatBoots_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="CombatBoots_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="CowboyHat_Brown">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="CowboyHat_green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="CoyoteBag_Brown">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="CoyoteBag_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="FAL">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="FNP45_MRDSOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Fal_FoldingBttstck">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Fal_OeBttstck">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GP5GasMask">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieAtt_Mossy">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieAtt_Tan">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieAtt_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieBushrag_Mossy">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieBushrag_Tan">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieBushrag_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieHood_Mossy">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieHood_Tan">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieHood_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieSuit_Mossy">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieSuit_Tan">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieSuit_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieTop_Mossy">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieTop_Tan">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GhillieTop_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaEJacket_Flat">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaEJacket_PautRev">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaHelmetVisor">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaPants_Flat">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaPants_PautRev">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HighCapacityVest_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HighCapacityVest_Olive">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HunterPants_Autumn">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HunterPants_Summer">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HuntingBag">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HuntingJacket_Autumn">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HuntingJacket_Summer">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HuntingOptic">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="HuntingVest">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="JungleBoots_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="JungleBoots_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="KashtanOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="KazuarOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="LargeTent">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M4A1_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M4A1_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M4_CarryHandleOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M4_Suppressor">
+        <nominal>4</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M4_T3NRDSOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M65Jacket_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M65Jacket_Olive">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M65Jacket_Tan">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M68Optic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_CZ527_5rnd">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_FAL_20Rnd">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_Ruger1022_30Rnd">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_SVD_10Rnd">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_Saiga_Drum20Rnd">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_VAL_20Rnd">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>14400</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mag_VSS_10Rnd">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>14400</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mich2001Helmet">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="MilitaryBoots_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="MilitaryBoots_Bluerock">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mp133Shotgun">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NBCBootsGray">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NBCGlovesGray">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NBCHoodGray">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NBCJacketGray">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NBCPantsGray">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NVGHeadstrap">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NVGoggles">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="PSO11Optic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="PSO1Optic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="PUScopeOptic">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="PistolOptic">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="PlateCarrierVest">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="RadarCap_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="ReflexOptic">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="SVD">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Shirt_GreenCheck">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TTSKOPants">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TTsKOJacket_Camo">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TacticalGloves_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TacticalGloves_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TacticalShirt_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TacticalShirt_Olive">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="TortillaBag">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="UKAssVest_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="UKAssVest_Camo">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="USMCJacket_Desert">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="USMCJacket_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="USMCPants_Desert">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="USMCPants_Woodland">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Ushanka_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="VSS">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+	<type name="Mag_AKM_Drum75Rnd_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AKM_Drum75Rnd_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AK74_30Rnd_Green">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AK74_30Rnd_Black">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AKM_Palm30Rnd_Black">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AKM_Palm30Rnd_Green">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AK101_30Rnd_Green">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_AK101_30Rnd_Black">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_CMAG_40Rnd_Green">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_CMAG_30Rnd_Green">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_CMAG_40Rnd_Black">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Mag_CMAG_30Rnd_Black">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="M4_OEBttstck_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />		
+	</type>
+
+	<type name="M4_MPBttstck_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="M4_CQBBttstck_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="M4_OEBttstck_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />		
+	</type>
+
+	<type name="M4_MPBttstck_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="M4_CQBBttstck_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="M4_RISHndgrd_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="M4_PlasticHndgrd_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Winchester70_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Winchester70_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="Winchester70_Camo">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+	</type>
+
+	<type name="SKS_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+	    <type name="SKS_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+	    <type name="CZ527_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+	    <type name="CZ527_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+	<type name="CZ527_Camo">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Scout">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Scout_Chernarus">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Scout_Livonia">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+   <type name="Mag_Scout_5Rnd">
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="B95_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mosin9130_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mosin9130_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="Mosin9130_Camo">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaHelmet_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="GorkaHelmet_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+    <type name="GasMask">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+    <type name="M4_PlasticHndgrd">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+	    <type name="M4_RISHndgrd_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="M4_RISHndgrd_Green">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+    <type name="M67Grenade">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+	<type name="RGD5Grenade">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+	 <type name="LandMineTrap">
+        <nominal>6</nominal>
+        <lifetime>86400</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+
+    <type name="NailBox">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+    <type name="KobraOptic">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="store"/>
+		<usage name="Store" />
+    </type>
+	
+	
+<!-- MAPGROUPPROTO.XML -->
+ADD THIS ENTRY TO THE MAPGROUPSPROTO. DO NOT REPLACE Land_Village_Store OR Land_Village_Store_Enoch.
+
+
+			<group name="Land_Village_Store_SHOP" lootmax="100">
+				<usage name="Store" />
+				<container name="lootFloor" lootmax="100">
+						<category name="store" />
+				</container>
+				<dispatch>
+                     <proxy type="Bear_Pink" pos="0.828125 -0.856476 -2.534180" rpy="0.0 35.0 0.0" />
+                     <proxy type="LargeTent" pos="2.605468 -1.716140 -0.803711" rpy="0.0 0.0 0.0" />
+
+                     <proxy type="AmmoBox_556x45_20Rnd" pos="-1.332032 -0.959762 -1.945313" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45_20Rnd" pos="-1.332032 -0.959762 -1.845704" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45_20Rnd" pos="-1.332032 -0.959762 -1.746094" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45_20Rnd" pos="-1.431641 -0.959762 -1.945313" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45_20Rnd" pos="-1.431641 -0.959762 -1.845704" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45_20Rnd" pos="-1.431641 -0.959762 -1.746094" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_308Win_20Rnd" pos="-1.581055 -0.964523 -1.935547" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308Win_20Rnd" pos="-1.581055 -0.964431 -1.835938" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308Win_20Rnd" pos="-1.730469 -0.964431 -1.935547" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308Win_20Rnd" pos="-1.730469 -0.964523 -1.835938" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308Win_20Rnd" pos="-1.730469 -0.964523 -1.736329" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308Win_20Rnd" pos="-1.581055 -0.964431 -1.736329" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54_20Rnd" pos="-1.928711 -0.965103 -1.737305" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54_20Rnd" pos="-1.928711 -0.963974 -1.836915" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54_20Rnd" pos="-1.929688 -0.965103 -1.935547" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54_20Rnd" pos="-2.128907 -0.963974 -1.835938" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54_20Rnd" pos="-2.128907 -0.963974 -1.736329" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54_20Rnd" pos="-2.128907 -0.965103 -1.935547" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x39_20Rnd" pos="-2.277344 -0.952758 -1.935547" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_762x39_20Rnd" pos="-2.277344 -0.952758 -1.823243" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_762x39_20Rnd" pos="-2.277344 -0.952758 -1.723633" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_762x39_20Rnd" pos="-2.426758 -0.952026 -1.723633" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_762x39_20Rnd" pos="-2.427735 -0.952758 -1.822266" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_762x39_20Rnd" pos="-2.427735 -0.952026 -1.921875" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_357_20Rnd" pos="-2.562512 -0.953338 -1.726563" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_357_20Rnd" pos="-2.562512 -0.953186 -1.826172" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_357_20Rnd" pos="-2.562512 -0.953186 -1.776368" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_357_20Rnd" pos="-2.562512 -0.953338 -1.875977" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_357_20Rnd" pos="-2.562512 -0.953338 -1.925782" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_45ACP_25rnd" pos="-2.662110 -0.955185 -1.776368" rpy="-90.0 0.0 90.0" />
+                     <proxy type="AmmoBox_45ACP_25rnd" pos="-2.662110 -0.955185 -1.818360" rpy="-90.0 0.0 90.0" />
+                     <proxy type="AmmoBox_45ACP_25rnd" pos="-2.662110 -0.955185 -1.868165" rpy="-90.0 0.0 90.0" />
+                     <proxy type="AmmoBox_45ACP_25rnd" pos="-2.662110 -0.955215 -1.917969" rpy="-90.0 0.0 90.0" />
+                     <proxy type="AmmoBox_45ACP_25rnd" pos="-2.662110 -0.955215 -1.967774" rpy="-90.0 0.0 90.0" />
+                     <proxy type="AmmoBox_45ACP_25rnd" pos="-2.662110 -0.955215 -1.718750" rpy="-90.0 0.0 90.0" />
+                     <proxy type="AmmoBox_9x19_25rnd" pos="-2.811524 -0.957733 -1.721680" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x19_25rnd" pos="-2.811524 -0.958694 -1.822266" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x19_25rnd" pos="-2.811524 -0.958694 -1.920899" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x19_25rnd" pos="-2.911133 -0.957733 -1.721680" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x19_25rnd" pos="-2.911133 -0.957733 -1.821290" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x19_25rnd" pos="-2.911133 -0.958694 -1.920899" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_380_35rnd" pos="-3.060547 -0.960403 -1.730469" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_380_35rnd" pos="-3.060547 -0.960403 -1.830079" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_380_35rnd" pos="-3.060547 -0.960189 -1.929688" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_380_35rnd" pos="-3.159180 -0.960403 -1.728516" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_380_35rnd" pos="-3.159180 -0.960403 -1.828125" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_380_35rnd" pos="-3.159180 -0.960189 -1.927735" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_00buck_10rnd" pos="-1.693360 -1.298965 -1.755860" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_00buck_10rnd" pos="-1.693360 -1.298965 -1.805665" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_00buck_10rnd" pos="-1.693360 -1.296920 -1.855469" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_00buck_10rnd" pos="-1.543946 -1.298965 -1.755860" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_00buck_10rnd" pos="-1.543946 -1.298965 -1.805665" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_00buck_10rnd" pos="-1.544922 -1.296920 -1.858399" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_12gaSlug_10Rnd" pos="-1.345703 -1.298965 -1.758790" rpy="90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_12gaSlug_10Rnd" pos="-1.345703 -1.298965 -1.808594" rpy="90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_12gaSlug_10Rnd" pos="-1.345703 -1.298965 -1.858399" rpy="90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_12gaSlug_10Rnd" pos="-1.345703 -1.298965 -1.908204" rpy="90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_12gaSlug_10Rnd" pos="-1.345703 -1.298965 -1.958008" rpy="90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_545x39_20Rnd" pos="-1.828125 -1.316131 -1.750977" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39_20Rnd" pos="-1.828125 -1.317947 -1.850586" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39_20Rnd" pos="-1.828125 -1.317947 -1.950196" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39_20Rnd" pos="-1.977539 -1.316131 -1.950196" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39_20Rnd" pos="-1.977539 -1.316131 -1.750977" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39_20Rnd" pos="-1.977539 -1.317947 -1.850586" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_9x39AP_20Rnd" pos="-2.136719 -1.302047 -1.925782" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39AP_20Rnd" pos="-2.136719 -1.302047 -1.826172" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39AP_20Rnd" pos="-2.136719 -1.302780 -1.726563" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39AP_20Rnd" pos="-2.286133 -1.302780 -1.726563" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39AP_20Rnd" pos="-2.286133 -1.302780 -1.826172" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39AP_20Rnd" pos="-2.286133 -1.302047 -1.925782" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39_20Rnd" pos="-2.485352 -1.302780 -1.925782" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39_20Rnd" pos="-2.485352 -1.302780 -1.826172" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39_20Rnd" pos="-2.485352 -1.302780 -1.726563" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39_20Rnd" pos="-2.634766 -1.302780 -1.726563" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39_20Rnd" pos="-2.634766 -1.302047 -1.826172" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_9x39_20Rnd" pos="-2.634766 -1.302780 -1.925782" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_545x39Tracer_20Rnd" pos="-2.784180 -1.316131 -1.925782" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39Tracer_20Rnd" pos="-2.784180 -1.317947 -1.826172" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39Tracer_20Rnd" pos="-2.784180 -1.316131 -1.726563" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39Tracer_20Rnd" pos="-2.933594 -1.316131 -1.925782" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39Tracer_20Rnd" pos="-2.933594 -1.316131 -1.726563" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_545x39Tracer_20Rnd" pos="-2.933594 -1.317947 -1.826172" rpy="90.0 00.0 0.0" />
+                     <proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-3.083008 -1.302780 -1.776368" rpy="90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-3.083008 -1.302780 -1.875977" rpy="90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-3.083008 -1.302780 -1.975586" rpy="90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-3.132813 -1.652069 -1.776368" rpy="90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-3.132813 -1.652069 -1.875977" rpy="90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-3.132813 -1.652069 -1.975586" rpy="90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_762x54Tracer_20Rnd" pos="-2.983399 -1.665146 -1.776368" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54Tracer_20Rnd" pos="-2.983399 -1.664016 -1.875977" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54Tracer_20Rnd" pos="-2.983399 -1.665146 -1.975586" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54Tracer_20Rnd" pos="-2.833985 -1.665146 -1.776368" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54Tracer_20Rnd" pos="-2.833985 -1.664016 -1.875977" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_762x54Tracer_20Rnd" pos="-2.833985 -1.664016 -1.975586" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308WinTracer_20Rnd" pos="-2.634766 -1.664566 -1.776368" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308WinTracer_20Rnd" pos="-2.634766 -1.664566 -1.875977" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308WinTracer_20Rnd" pos="-2.634766 -1.664474 -1.975586" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308WinTracer_20Rnd" pos="-2.485352 -1.664566 -1.776368" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308WinTracer_20Rnd" pos="-2.485352 -1.664566 -1.875977" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_308WinTracer_20Rnd" pos="-2.485352 -1.664474 -1.975586" rpy="-90.0 180.0 0.0" />
+                     <proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.335938 -1.659805 -1.776368" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.335938 -1.659805 -1.875977" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.335938 -1.659805 -1.975586" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.236328 -1.659805 -1.975586" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.236328 -1.659805 -1.875977" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.236328 -1.659805 -1.776368" rpy="-90.0 0.0 0.0" />
+                     <proxy type="AmmoBox" pos="-1.339844 -1.918411 -1.826172" rpy="0.0 00.0 0.0" />
+                     <proxy type="AmmoBox" pos="-1.489258 -1.918411 -1.826172" rpy="0.0 00.0 0.0" />
+                     <proxy type="AmmoBox" pos="-1.638672 -1.918411 -1.826172" rpy="0.0 00.0 0.0" />
+                     <proxy type="AmmoBox" pos="-1.788086 -1.918411 -1.826172" rpy="0.0 00.0 0.0" />
+
+                     <proxy type="B95_Black" pos="2.824218 -0.031524 -1.050782" rpy="0.0 0.0 0.0" />
+                     <proxy type="CZ527_Black" pos="2.824218 -0.250778 -1.050782" rpy="0.0 0.0 0.0" />
+                     <proxy type="CZ527_Green" pos="2.824218 -0.450790 -1.050782" rpy="0.0 0.0 0.0" />
+                     <proxy type="CZ527_Camo" pos="2.824218 -0.650802 -1.050782" rpy="0.0 0.0 0.0" />
+                     <proxy type="M4A1_Green" pos="2.824218 -0.593628 -4.088868" rpy="0.0 0.0 0.0" />
+                     <proxy type="M4A1_Black" pos="2.824218 -0.343612 -4.088868" rpy="0.0 0.0 0.0" />
+                     <proxy type="Mosin9130_Black" pos="2.824218 0.149170 -1.299805" rpy="0.0 0.0 0.0" />
+                     <proxy type="Mosin9130_Green" pos="2.824218 0.299179 -1.299805" rpy="0.0 0.0 0.0" />
+                     <proxy type="Mosin9130_Camo" pos="2.824218 0.449265 -1.299805" rpy="0.0 0.0 0.0" />
+                     <proxy type="SKS_Black" pos="2.824218 0.100800 -2.993165" rpy="0.0 0.0 0.0" />
+                     <proxy type="SKS_Green" pos="2.823242 0.301209 -2.990235" rpy="0.0 0.0 0.0" />
+                     <proxy type="AK101_Black" pos="2.823242 0.080536 -4.113282" rpy="0.0 0.0 0.0" />
+                     <proxy type="AK101_Green" pos="2.823242 -0.138229 -4.112305" rpy="0.0 0.0 0.0" />
+                     <proxy type="Winchester70_Black" pos="2.824218 -0.150772 -2.993165" rpy="0.0 0.0 0.0" />
+                     <proxy type="Winchester70_Green" pos="2.824218 -0.350784 -2.993165" rpy="0.0 0.0 0.0" />
+                     <proxy type="AK74_Black" pos="2.824218 0.284195 -4.111329" rpy="0.0 0.0 0.0" />
+                     <proxy type="AK74_Green" pos="2.814453 0.484192 -4.114258" rpy="0.0 0.0 0.0" />
+                     <proxy type="AKS74U_Black" pos="2.355468 -0.885711 -4.713868" rpy="0.0 90.0 0.0" />
+                     <proxy type="AKS74U_Green" pos="2.355468 -1.106460 -4.713868" rpy="0.0 90.0 0.0" />
+
+                     <proxy type="Mp133Shotgun" pos="2.824218 -0.597549 -2.993165" rpy="0.0 0.0 0.0" />
+                     <proxy type="Scout" pos="2.593750 -0.215805 -4.714844" rpy="90.0 0.0 -90.0" />
+                     <proxy type="Scout_Livonia" pos="2.188476 -0.215835 -4.713868" rpy="90.0 0.0 -90.0" />
+                     <proxy type="Scout_Chernarus" pos="2.384765 -0.215805 -4.688477" rpy="90.0 0.0 -90.0" />
+
+                     <proxy type="Mag_AKM_Drum75Rnd_Black" pos="2.695195 -0.840816 -0.877930" rpy="0.0 90.0 0.0" />
+                     <proxy type="Mag_AKM_Drum75Rnd_Green" pos="2.695195 -0.840771 -1.120118" rpy="0.0 90.0 0.0" />
+                     <proxy type="Mag_AKM_Palm30Rnd_Black" pos="2.564179 -0.987274 -1.319336" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AKM_Palm30Rnd_Green" pos="2.563203 -0.989563 -1.468750" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AKM_Palm30Rnd_Black" pos="2.564179 -0.957274 -1.319336" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AKM_Palm30Rnd_Green" pos="2.563203 -0.959563 -1.468750" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AKM_Palm30Rnd_Black" pos="2.564179 -0.927274 -1.319336" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AKM_Palm30Rnd_Green" pos="2.563203 -0.929563 -1.468750" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_30Rnd_Black" pos="2.583984 -1.318802 -0.420899" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_30Rnd_Green" pos="2.583984 -1.318802 -0.572266" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_40Rnd_Black" pos="2.614179 -1.318802 -0.722657" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_40Rnd_Green" pos="2.614179 -1.318802 -0.869141" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_30Rnd_Black" pos="2.583984 -1.288802 -0.420899" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_30Rnd_Green" pos="2.583984 -1.288802 -0.572266" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_40Rnd_Black" pos="2.614179 -1.288802 -0.722657" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_40Rnd_Green" pos="2.614179 -1.288802 -0.869141" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_30Rnd_Black" pos="2.583984 -1.258802 -0.420899" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_30Rnd_Green" pos="2.583984 -1.258802 -0.572266" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_40Rnd_Black" pos="2.614179 -1.258802 -0.722657" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_CMAG_40Rnd_Green" pos="2.614179 -1.258802 -0.869141" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK101_30Rnd_Black" pos="2.584179 -1.318802 -1.121094" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK101_30Rnd_Green" pos="2.583203 -1.318802 -1.269532" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK101_30Rnd_Black" pos="2.584179 -1.288802 -1.121094" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK101_30Rnd_Green" pos="2.583203 -1.288802 -1.269532" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK101_30Rnd_Black" pos="2.584179 -1.258802 -1.121094" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK101_30Rnd_Green" pos="2.583203 -1.258802 -1.269532" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK74_30Rnd_Black" pos="2.583984 -0.985809 -1.666993" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK74_30Rnd_Green" pos="2.583984 -0.985809 -1.815430" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK74_30Rnd_Black" pos="2.583984 -0.955809 -1.666993" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK74_30Rnd_Green" pos="2.583984 -0.955809 -1.815430" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK74_30Rnd_Black" pos="2.583984 -0.925809 -1.666993" rpy="90.0 0.0 0.0" />
+                     <proxy type="Mag_AK74_30Rnd_Green" pos="2.583984 -0.925809 -1.815430" rpy="90.0 0.0 0.0" />
+
+                     <proxy type="Mag_Saiga_Drum20Rnd" pos="2.534179 -1.305801 -1.569336" rpy="90.0 0.0 -90.0" />
+                     <proxy type="Mag_Scout_5Rnd" pos="2.595703 -0.974807 -0.420899" rpy="0.0 0.0 0.0" />
+                     <proxy type="Mag_Scout_5Rnd" pos="2.562512 -0.974807 -0.420899" rpy="0.0 0.0 0.0" />
+                     <proxy type="Mag_Scout_5Rnd" pos="2.530273 -0.974807 -0.418946" rpy="0.0 0.0 0.0" />
+                     <proxy type="Mag_CZ527_5rnd" pos="2.605468 -0.985809 -0.502930" rpy="0.0 90.0 0.0" />
+                     <proxy type="Mag_CZ527_5rnd" pos="2.605468 -0.985809 -0.524415" rpy="0.0 90.0 0.0" />
+                     <proxy type="Mag_CZ527_5rnd" pos="2.605468 -0.985809 -0.548829" rpy="0.0 90.0 0.0" />
+
+                     <proxy type="AliceBag_Green" pos="-1.578125 -0.704147 -4.637696" rpy="0.0 90.0 0.0" />
+                     <proxy type="AliceBag_Camo" pos="-1.612305 -0.003769 -4.632813" rpy="0.0 90.0 0.0" />
+                     <proxy type="CoyoteBag_Brown" pos="-3.730469 -0.682968 -4.614258" rpy="0.0 90.0 0.0" />
+                     <proxy type="CoyoteBag_Green" pos="-3.727539 -0.053390 -4.615235" rpy="0.0 90.0 0.0" />
+                     <proxy type="TortillaBag" pos="0.531250 -0.674392 -4.622071" rpy="0.0 90.0 0.0" />
+                     <proxy type="AliceBag_Black" pos="0.498047 0.016434 -4.637696" rpy="0.0 90.0 0.0" />
+
+                     <proxy type="FAL" pos="6.485351 -1.023910 1.091796" rpy="0.0 0.0 0.0" />
+                     <proxy type="ASVAL" pos="6.485351 -0.790756 1.257812" rpy="0.0 0.0 0.0" />
+                     <proxy type="VSS" pos="6.485351 -0.540710 1.257812" rpy="0.0 0.0 0.0" />
+                     <proxy type="SVD" pos="6.485351 -0.313382 0.958984" rpy="0.0 0.0 0.0" />
+
+                     <proxy type="BDUJacket" pos="-3.693360 -0.381195 1.859375" rpy="-540.0 0.0 90.0" />
+                     <proxy type="M65Jacket_Tan" pos="-1.663086 -0.356857 1.861328" rpy="-540.0 0.0 90.0" />
+                     <proxy type="M65Jacket_Olive" pos="-0.288086 -0.356857 1.861328" rpy="-540.0 0.0 90.0" />
+                     <proxy type="M65Jacket_Black" pos="-0.965821 -0.345810 1.861328" rpy="-540.0 0.0 90.0" />
+                     <proxy type="TTsKOJacket_Camo" pos="-2.863164 -0.306503 1.834960" rpy="-540.0 0.0 90.0" />
+                     <proxy type="TTSKOPants" pos="-2.693164 -0.977020 1.553398" rpy="0.0 75.0 0.0" />
+                     <proxy type="BDUPants" pos="-3.549805 -0.976761 1.546875" rpy="0.0 75.0 0.0" />
+                     <proxy type="USMCJacket_Woodland" pos="-1.379883 -0.977020 1.497070" rpy="0.0 70.0 0.0" />
+                     <proxy type="USMCJacket_Desert" pos="-0.255860 -1.006897 1.493164" rpy="0.0 70.0 0.0" />
+                     <proxy type="USMCPants_Desert" pos="-0.278321 -1.327041 1.622070" rpy="0.0 70.0 0.0" />
+                     <proxy type="USMCPants_Woodland" pos="-1.385743 -1.346801 1.620117" rpy="0.0 70.0 0.0" />
+                     <proxy type="GorkaEJacket_Flat" pos="-3.582032 -1.345810 1.681640" rpy="0.0 73.0 0.0" />
+                     <proxy type="GorkaEJacket_PautRev" pos="-2.653164 -1.354293 1.703125" rpy="0.0 73.0 0.0" />
+                     <proxy type="GorkaPants_Flat" pos="-3.591797 -1.341888 1.568359" rpy="0.0 90.0 0.0" />
+                     <proxy type="GorkaPants_PautRev" pos="-2.693164 -1.341888 1.574218" rpy="0.0 90.0 0.0" />
+                     <proxy type="TacticalShirt_Olive" pos="-3.512139 -2.032180 1.665039" rpy="0.0 0.0 0.0" />
+                     <proxy type="TacticalShirt_Black" pos="-2.999024 -2.027084 1.681640" rpy="0.0 0.0 0.0" />
+
+                     <proxy type="TacticalGloves_Black" pos="-2.293946 -1.005813 1.611328" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="TacticalGloves_Green" pos="-2.094727 -1.005813 1.611328" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="BoonieHat_Flecktran" pos="-2.095703 -1.707718 1.791015" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="BoonieHat_DPM" pos="-2.099610 -1.357696 1.540039" rpy="89.965729 180.000000 0.000000" />
+                     <proxy type="Ushanka_Green" pos="-1.653321 -1.627121 1.617187" rpy="-90.000000 -90.000015 -0.0" />
+                     <proxy type="Bandana_CamoPattern" pos="-1.105469 -1.676483 1.566406" rpy="-90.000000 179.999893 -0.0" />
+                     <proxy type="RadarCap_Green" pos="-0.706055 -1.724701 1.563476" rpy="89.965729 180.000000 0" />
+                     <proxy type="BalaclavaMask_Green" pos="-0.358399 -1.648575 1.612304" rpy="90.000000 -89.999977 -0.0" />
+
+                     <proxy type="GhillieHood_Mossy" pos="-2.370118 -1.050888 -4.487305" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="GhillieAtt_Mossy" pos="-2.321289 -1.232559 -4.409180" rpy="90.000000 90.000015 0.0" />
+                     <proxy type="GhillieBushrag_Mossy" pos="-2.371094 -1.243774 -4.458985" rpy="90.000000 179.999893 0.0" />
+                     <proxy type="GhillieTop_Mossy" pos="-2.319336 -1.593795 -4.458985" rpy="90.000000 -0.000104 -0.0" />
+                     <proxy type="GhillieSuit_Mossy" pos="-2.319336 -1.943817 -4.409180" rpy="-89.965729 0.000000 0.000000" />
+                     <proxy type="GhillieHood_Tan" pos="-3.016602 -1.090973 -4.509766" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="GhillieHood_Woodland" pos="-3.665039 -1.090973 -4.508790" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="GhillieBushrag_Tan" pos="-3.016602 -1.243774 -4.459961" rpy="90.000000 179.999893 0.0" />
+                     <proxy type="GhillieBushrag_Woodland" pos="-3.714844 -1.243774 -4.409180" rpy="90.000000 0.0 0.0" />
+                     <proxy type="GhillieTop_Tan" pos="-3.042969 -1.613922 -4.441407" rpy="90.000000 -0.000104 -0.0" />
+                     <proxy type="GhillieSuit_Tan" pos="-3.042969 -1.963943 -4.442383" rpy="-89.965729 0.000000 0.000000" />
+                     <proxy type="GhillieSuit_Woodland" pos="-3.690430 -2.013946 -4.442383" rpy="-89.965729 0.000000 0.000000" />
+                     <proxy type="GhillieTop_Woodland" pos="-3.740235 -1.613922 -4.442383" rpy="90.000000 -0.000104 -0.0" />
+
+                     <proxy type="CombatBoots_Green" pos="-1.753907 -0.985321 -4.338868" rpy="0.000000 69.999992 0.000000" />
+                     <proxy type="CombatBoots_Black" pos="-1.407227 -0.985321 -4.323243" rpy="0.000000 69.999992 0.000000" />
+                     <proxy type="JungleBoots_Green" pos="-1.119141 -0.985565 -4.338868" rpy="0.000000 159.999939 0.000000" />
+                     <proxy type="JungleBoots_Black" pos="-0.806641 -0.985809 -4.338868" rpy="0.000000 159.999939 0.000000" />
+                     <proxy type="MilitaryBoots_Black" pos="-0.447266 -0.974060 -4.318360" rpy="0.000000 149.999985 0.000000" />
+                     <proxy type="MilitaryBoots_Bluerock" pos="-0.147461 -0.974060 -4.299805" rpy="0.000000 149.999954 0.000000" />
+
+                     <proxy type="GorkaHelmet_Green" pos="-0.158203 -1.362915 -4.309571" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="GorkaHelmet_Black" pos="-0.457032 -1.362915 -4.326172" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="Mich2001Helmet" pos="-0.774414 -1.324524 -4.320313" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="GorkaHelmetVisor" pos="-0.159180 -1.618515 -4.271485" rpy="-89.965729 -90.000000 0.000000" />
+                     <proxy type="BallisticHelmet_Black" pos="-1.054688 -1.342712 -4.373047" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="NVGHeadstrap" pos="-0.461914 -1.678772 -4.304688" rpy="0.000000 -90.000000 0.000000" />
+                     <proxy type="GasMask" pos="-0.811524 -1.696991 -4.375127" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="AirborneMask" pos="-1.065430 -1.668075 -4.335938" rpy="0.000000 -90.000000 0.000000" />
+
+                     <proxy type="NVGoggles" pos="0.405273 -0.885803 -4.238282" rpy="-90.0 90.0 0.0" />
+                     <proxy type="NVGoggles" pos="0.255859 -0.885803 -4.238282" rpy="-90.0 90.0 0.0" />
+
+                     <proxy type="NBCGlovesGray" pos="-3.021485 -0.985809 -2.323243" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="NBCHoodGray" pos="-2.960938 -1.322830 -2.341797" rpy="0.000000 13.546557 0.000000" />
+                     <proxy type="NBCPantsGray" pos="-2.315430 -1.327041 -2.236329" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="NBCBootsGray" pos="-1.618164 -1.377929 -2.286133" rpy="0.000000 0.000000 0.000000" />
+                     <proxy type="NBCJacketGray" pos="-2.313477 -0.977020 -2.391602" rpy="0.000000 69.999992 0.000000" />
+                     <proxy type="GP5GasMask" pos="-1.716797 -0.985811 -2.268282" rpy="70.999947 -107.999634 0.0" />
+
+                     <proxy type="HunterPants_Summer" pos="0.642578 -1.312683 1.568359" rpy="0.000000 60.000000 0.000000" />
+                     <proxy type="HunterPants_Autumn" pos="1.171875 -1.321777 1.531251" rpy="0.000000 60.000000 0.000000" />
+                     <proxy type="HuntingJacket_Autumn" pos="1.105468 -0.985809 1.604492" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="HuntingJacket_Summer" pos="0.627929 -0.979187 1.645507" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="CowboyHat_Brown" pos="1.726562 -0.985809 1.561523" rpy="90.000000 89.999977 0.0" />
+                     <proxy type="CowboyHat_green" pos="2.121093 -0.985809 1.561523" rpy="90.000000 89.999977 0.0" />
+                     <proxy type="BaseballCap_Camo" pos="2.125121 -1.323120 1.693359" rpy="90.000000 0.0 0.0" />
+                     <proxy type="Shirt_GreenCheck" pos="1.676757 -1.327041 1.492187" rpy="0.000000 39.999996 0.000000" />
+                     <proxy type="HuntingBag" pos="2.570312 -1.249649 1.750000" rpy="0.000000 -90.000000 -0.0" />
+                     <proxy type="HuntingVest" pos="2.543945 -1.654434 1.841796" rpy="90.000000 90.000015 -0.0" />
+
+                     <proxy type="PlateCarrierVest" pos="-1.985352 -1.583496 0.055664" rpy="-90.999990 0.999954 90.999954" />
+                     <proxy type="UKAssVest_Black" pos="1.659179 0.252747 1.859375" rpy="-540.0 0.0 90.0" />
+                     <proxy type="UKAssVest_Camo" pos="0.708007 0.273056 1.888671" rpy="-540.0 0.0 90.0" />
+                     <proxy type="HighCapacityVest_Black" pos="1.605468 -0.376983 1.874023" rpy="-540.0 0.0 90.0" />
+                     <proxy type="HighCapacityVest_Olive" pos="0.708984 -0.376983 1.874023" rpy="-540.0 0.0 90.0" />
+
+                     <proxy type="M4_Suppressor" pos="2.572265 -0.959884 -2.252930" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="M4_Suppressor" pos="2.572265 -0.959854 -2.203125" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="M4_Suppressor" pos="2.572265 -0.959854 -2.153321" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="M4_Suppressor" pos="2.572265 -0.959854 -2.103516" rpy="89.965729 0.000000 0.000000" />
+
+                     <proxy type="M4_OEBttstck_Black" pos="2.505859 -1.306060 -4.244141" rpy="90.000000 89.999977 0.0" />
+                     <proxy type="M4_OEBttstck_Green" pos="2.605468 -1.306060 -4.245118" rpy="90.000000 90.000031 -0.0" />
+                     <proxy type="M4_MPBttstck_Black" pos="2.505859 -1.309982 -3.995118" rpy="90.000000 89.999977 -0.000000" />
+                     <proxy type="M4_MPBttstck_Green" pos="2.605468 -1.309280 -3.996094" rpy="90.000000 -89.999977 -0.000000" />
+                     <proxy type="M4_CQBBttstck_Black" pos="2.620117 -1.303589 -3.783204" rpy="90.000000 90.000015 -0.0" />
+                     <proxy type="M4_CQBBttstck_Green" pos="2.511718 -1.303177 -3.783204" rpy="90.000000 -90.000015 -0.0" />
+                     <proxy type="M4_PlasticHndgrd_Black" pos="2.605468 -0.955810 -4.177735" rpy="90.000000 179.999893 0.0" />
+                     <proxy type="M4_PlasticHndgrd_Green" pos="2.605468 -0.955810 -4.279297" rpy="90.000000 179.999893 0.0" />
+                     <proxy type="M4_RISHndgrd_Black" pos="2.605468 -0.955810 -3.949219" rpy="90.000000 179.999924 0.0" />
+                     <proxy type="M4_RISHndgrd_Green" pos="2.605468 -0.955810 -4.048829" rpy="90.000000 179.999924 0.0" />
+
+                     <proxy type="AK_Suppressor" pos="2.497070 -1.304748 -2.112305" rpy="90.000000 179.999893 -0.0" />
+                     <proxy type="AK_Suppressor" pos="2.497070 -1.304748 -2.162110" rpy="90.000000 179.999893 -0.0" />
+                     <proxy type="AK_Suppressor" pos="2.512139 -1.304748 -2.211915" rpy="90.000000 179.999893 -0.0" />
+                     <proxy type="AK_Suppressor" pos="2.501953 -1.304641 -2.260743" rpy="90.000000 179.999908 -0.0" />
+
+                     <proxy type="AK_WoodBttstck_Black" pos="1.953125 -0.960083 -4.511719" rpy="-89.965729 0.000000 0.000000" />
+                     <proxy type="AK_WoodBttstck_Camo" pos="1.953125 -0.960083 -4.412110" rpy="-89.965729 0.000000 0.000000" />
+                     <proxy type="AK_FoldingBttstck_Black" pos="1.655273 -0.951355 -4.511719" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="AK_FoldingBttstck_Green" pos="1.654297 -0.951355 -4.412110" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="AK_PlasticBttstck_Black" pos="1.355468 -0.963974 -4.461915" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="AK_PlasticBttstck_Green" pos="1.357422 -0.963974 -4.322266" rpy="89.965729 0.000000 0.000000" />
+                     <proxy type="AK_WoodHndgrd_Black" pos="1.798828 -1.322876 -4.374024" rpy="90.000000 179.999893 0.0" />
+                     <proxy type="AK_WoodHndgrd_Camo" pos="1.800781 -1.322876 -4.473633" rpy="90.000000 179.999893 0.0" />
+                     <proxy type="AK_RailHndgrd_Black" pos="1.984375 -1.296768 -4.466797" rpy="90.000000 179.999969 0.0" />
+                     <proxy type="AK_RailHndgrd_Green" pos="1.986328 -1.296768 -4.364258" rpy="90.000000 179.999893 0.0" />
+
+                     <proxy type="AK_PlasticHndgrd" pos="1.644531 -1.296768 -4.396485" rpy="90.000000 -89.999977 -0.0" />
+                     <proxy type="AK_PlasticHndgrd" pos="1.544922 -1.296768 -4.395508" rpy="90.000000 -89.999977 -0.0" />
+
+                     <proxy type="M68Optic" pos="2.556640 -0.956146 -2.885743" rpy="-90.0 0.000000 90.0" />
+                     <proxy type="M68Optic" pos="2.559570 -0.956146 -2.985352" rpy="-90.0 0.000000 90.0" />
+                     <proxy type="FNP45_MRDSOptic" pos="2.706054 -0.975814 -2.448243" rpy="0.000000 180.000000 -90.0" />
+                     <proxy type="FNP45_MRDSOptic" pos="2.706054 -0.975814 -2.498047" rpy="0.000000 180.000000 -90.000000" />
+                     <proxy type="ReflexOptic" pos="2.705078 -0.985809 -2.585938" rpy="0.000000 0.000000 90.000000" />
+                     <proxy type="ReflexOptic" pos="2.705078 -0.985809 -2.685547" rpy="0.000000 0.000000 90.000000" />
+                     <proxy type="ACOGOptic" pos="2.505859 -0.946914 -3.283204" rpy="-90.000000 0.000000 90.000000" />
+                     <proxy type="ACOGOptic" pos="2.505859 -0.946914 -3.338868" rpy="-90.000000 0.000000 90.000000" />
+                     <proxy type="PUScopeOptic" pos="2.605468 -0.965805 -3.388672" rpy="-90.000000 0.000000 0.000000" />
+                     <proxy type="PUScopeOptic" pos="2.605468 -0.965805 -3.488282" rpy="-90.000000 0.000000 0.000000" />
+                     <proxy type="HuntingOptic" pos="2.609375 -0.978042 -3.632813" rpy="-90.000000 0.000000 -0.000000" />
+                     <proxy type="HuntingOptic" pos="2.605468 -0.978042 -3.582032" rpy="-90.000000 0.000000 -0.000000" />
+                     <proxy type="PistolOptic" pos="2.708984 -0.983215 -2.935547" rpy="90.000000 -90.000000 0.000000" />
+                     <proxy type="PSO1Optic" pos="2.609375 -0.965805 -3.682618" rpy="90.0 0.000000 0.000000" />
+                     <proxy type="PSO1Optic" pos="2.608398 -0.965805 -3.782227" rpy="90.0 0.000000 0.000000" />
+                     <proxy type="PSO11Optic" pos="2.597656 -0.965805 -3.188477" rpy="90.000000 180.0 -0.0" />
+                     <proxy type="KobraOptic" pos="2.550781 -0.943954 -2.463868" rpy="-90.0 0.000000 0.000000" />
+                     <proxy type="KobraOptic" pos="2.551757 -0.943954 -2.566407" rpy="-90.0 0.000000 0.000000" />
+                     <proxy type="M4_T3NRDSOptic" pos="2.555664 -0.970138 -2.751266" rpy="-90.000000 0.000000 90.000000" />
+                     <proxy type="M4_T3NRDSOptic" pos="2.555664 -0.970138 -2.799805" rpy="-90.000000 0.000000 90.000000" />
+
+                     <proxy type="Fal_FoldingBttstck" pos="6.276367 -0.985809 0.519531" rpy="90.000000 179.999908 0.0" />
+                     <proxy type="Mag_FAL_20Rnd" pos="6.275390 -0.985809 0.417968" rpy="90.000000 -0.000022 -0.0" />
+                     <proxy type="Mag_FAL_20Rnd" pos="6.281251 -0.985809 0.309570" rpy="90.000000 -0.000104 -0.0" />
+                     <proxy type="Mag_VSS_10Rnd" pos="6.348632 -0.985809 0.187500" rpy="90.000000 -180.000000 -0.0" />
+                     <proxy type="Mag_VSS_10Rnd" pos="6.348632 -0.985809 0.087890" rpy="90.000000 -180.000000 -0.0" />
+                     <proxy type="Mag_VAL_20Rnd" pos="6.204101 -0.985809 0.090820" rpy="90.000000 89.999977 -0.0" />
+                     <proxy type="Mag_VAL_20Rnd" pos="6.304687 -0.985809 -0.008790" rpy="90.000000 -0.000063 -0.0" />
+                     <proxy type="Mag_SVD_10Rnd" pos="6.309570 -1.345810 0.448242" rpy="90.000000 -0.000022 -0.0" />
+                     <proxy type="Mag_SVD_10Rnd" pos="6.309570 -1.349792 0.547851" rpy="90.000000 -180.000000 -0.000000" />
+
+                     <proxy type="RGD5Grenade" pos="0.950195 -1.699966 -3.499024" rpy="0.000000 140.343597 0.000000" />
+                     <proxy type="RGD5Grenade" pos="1.249023 -1.699966 -3.499024" rpy="0.000000 67.326241 0.000000" />
+                     <proxy type="RGD5Grenade" pos="1.149414 -1.699966 -3.499024" rpy="0.000000 -128.291275 0.000000" />
+                     <proxy type="RGD5Grenade" pos="1.049804 -1.699966 -3.499024" rpy="0.000000 119.337128 0.000000" />
+                     <proxy type="RGD5Grenade" pos="0.850586 -1.699966 -3.499024" rpy="0.000000 -75.994736 0.000000" />
+                     <proxy type="RGD5Grenade" pos="1.249023 -1.699966 -3.598633" rpy="0.000000 97.968056 0.000000" />
+                     <proxy type="RGD5Grenade" pos="1.149414 -1.699966 -3.598633" rpy="0.000000 -179.774673 0.000000" />
+                     <proxy type="RGD5Grenade" pos="1.049804 -1.699966 -3.598633" rpy="0.000000 -163.261749 0.000000" />
+                     <proxy type="RGD5Grenade" pos="0.950195 -1.699966 -3.598633" rpy="0.000000 149.967880 0.000000" />
+                     <proxy type="RGD5Grenade" pos="0.850586 -1.699966 -3.598633" rpy="0.000000 -115.810425 0.000000" />
+                     <proxy type="M67Grenade" pos="0.958007 -1.697738 -3.372071" rpy="0.000000 48.044674 0.000000" />
+                     <proxy type="M67Grenade" pos="1.057617 -1.697738 -3.372071" rpy="0.000000 -87.102264 0.000000" />
+                     <proxy type="M67Grenade" pos="1.157226 -1.697738 -3.372071" rpy="0.000000 -96.517815 0.000000" />
+                     <proxy type="M67Grenade" pos="1.256836 -1.697738 -3.372071" rpy="0.000000 14.963838 0.000000" />
+                     <proxy type="M67Grenade" pos="0.858398 -1.697738 -3.272461" rpy="0.000000 -145.023956 0.000000" />
+                     <proxy type="M67Grenade" pos="0.958007 -1.697738 -3.272461" rpy="0.000000 159.020966 0.000000" />
+                     <proxy type="M67Grenade" pos="1.057617 -1.697738 -3.272461" rpy="0.000000 -7.888424 0.000000" />
+                     <proxy type="M67Grenade" pos="1.157226 -1.697738 -3.272461" rpy="0.000000 -55.098103 0.000000" />
+                     <proxy type="M67Grenade" pos="1.256836 -1.697738 -3.272461" rpy="0.000000 87.354927 0.000000" />
+                     <proxy type="M67Grenade" pos="0.858398 -1.697738 -3.372071" rpy="0.000000 86.519974 0.000000" />
+                     <proxy type="LandMineTrap" pos="0.855468 -1.733459 -3.126954" rpy="0.000000 97.100105 0.000000" />
+                     <proxy type="LandMineTrap" pos="0.855468 -1.733459 -2.977540" rpy="0.000000 -24.851828 0.000000" />
+                     <proxy type="LandMineTrap" pos="1.004882 -1.733459 -3.126954" rpy="0.000000 -51.120937 0.000000" />
+                     <proxy type="LandMineTrap" pos="1.154297 -1.733459 -3.126954" rpy="0.000000 177.028091 0.000000" />
+                     <proxy type="LandMineTrap" pos="1.004882 -1.733459 -2.977540" rpy="0.000000 -112.382568 0.000000" />
+                     <proxy type="LandMineTrap" pos="1.154297 -1.733459 -2.977540" rpy="0.000000 23.753162 0.000000" />
+
+
+                     <proxy type="NailBox" pos="-1.903321 -1.647140 -2.438477" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-2.051758 -1.647140 -2.438477" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-2.050782 -1.647140 -2.297852" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.453125 -1.647140 -2.297852" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.603516 -1.647140 -2.297852" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.752930 -1.647140 -2.297852" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.901368 -1.647140 -2.297852" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.752930 -1.647140 -2.438477" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.603516 -1.647140 -2.438477" rpy="0.000000 90.000000 0.000000" />
+                     <proxy type="NailBox" pos="-1.454102 -1.647140 -2.438477" rpy="0.000000 90.000000 0.000000" />
+				</dispatch>
+		</group>
+		
+<!-- CFGLIMITSDEFINITION.XML -->
+SIMPLY ADD THESE ENTRIES TO THEIR APPROPRIATE HEADERS.
+
+        <category name="store"/>
+		
+		<usage name="Store" />
+		
+<!-- MAPGROUPPOS.XML -->
+FIND THE COORDINATES OF THE SHOP YOU WOULD LIKE TO MAKE YOUR TRADER SHOP, AND REPLACE Land_Village_Store (OR Land_Village_Store_Enoch IF LIVONIA) WITH Land_Village_Store_SHOP.
+ENTRY SHOULD LOOK AS FOLLOWS, WITH YOUR DESIRED SHOP REPLACING THE 0'ED COORDINATES:
+
+    <group name="Land_Village_Store_SHOP" pos="00000.000000 000.000000 0000.00000" rpy="-0.000000 0.000000 00.0000" a="0.0" />
+
+THAT SHOULD BE IT!, YOU DO NOT HAVE TO MAP WIPE YOUR SERVER, BUT IF YOU DON'T YOU COULD BE WAITING AWHILE FOR THE STORE TO GET STOCKED.
+
+THIS IS THE MAP WIPE FILE, IT WILL RETAIN YOUR CHARACTERS, BUT IT WILL WIPE EVERYTHING ON THE MAP. EVERYTHING, INCLUDING BASES, TENTS, CRATES.
+REMEMBER TO MAKE A BACKUP OF YOUR ORGINAL ECONOMY FILE.
+UPLOAD THIS FILE, RESTART THE SERVER, THEN REPLACE IT AGAIN WITH THE ORIGINAL, AND RESTART THE SERVER AGAIN.
+
+<!--ECONOMY.XML -->
+    <dynamic init="0" load="0" respawn="0" save="1"/>
+    <animals init="0" load="0" respawn="0" save="1"/>
+    <zombies init="0" load="0" respawn="0" save="1"/>
+    <vehicles init="0" load="0" respawn="0" save="1"/>
+    <randoms init="0" load="0" respawn="0" save="1"/>
+    <custom init="0" load="0" respawn="0" save="1"/>
+    <building init="0" load="0" respawn="0" save="1"/>
+    <player init="1" load="1" respawn="1" save="1"/>

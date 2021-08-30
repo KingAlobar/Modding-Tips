@@ -1,0 +1,310 @@
+
+
+
+
+
+
+
+
+
+			<!-- This is my version of the ({---   Paste_Class_Here   ---}) -->
+			<!-- may add vanilla <container> insert above my <dispatch> (under usages)if desired -->
+			<!-- i choose specific locations for my custom protos -->
+			<!-- and run vanilla elsewhere -->
+			<!-- or you can remove the _Custom and run both protos but it thins your loot more -->
+			<!-- your limitsdefinitions, types tags, and spawnablytypes are up to you -->
+	<!-- .....lootmax="???" your call, Survivor! I made and tested at sites provided but all work well on my servers -->
+	<!-- tip: bags are interchangable, weapons are interchangable, not all jackets are same but not hard to play with -->
+			<!-- any ammo or small tools can be switched to desire for the most part as well ->
+			<!-- Enjoy, Happy Mapping!!
+
+			<!-- Created By: Josie Garfunkle -- Garfunkle Gaming -- https://Discord.gg/2TEVDgM -->
+		
+			<!-- posted at https://discord.gg/vP3Y89AjAW for community use -->
+
+		<!-- -----------------------------({ Good Game })-------------------------------- -->
+
+
+
+	<!-- Vanilla pos used during mapping, ctrl+f(search) and fish this string out and place up top for ease of access
+	       or you can leave it and run vanilla proto over top of mine for floor loot(cut out shelf section)
+		  
+	
+    <group name="Land_Mil_Tent_Big3" pos="4156.551758 339.580505 11059.474609" rpy="-0.000000 0.000000 -107.730186" a="-162.269806" />
+	-->
+	
+       <!-- mapgrouppos.xml ADD Entry -->
+	
+	
+    <group name="Land_Mil_Tent_Big3_GunRack" pos="4156.551758 339.580505 11059.474609" rpy="-0.000000 0.000000 -107.730186" a="-162.269806" />
+	  
+	  
+	  <!-- mapgroupproto.xml ADD an Entry option below (1) Option only per mapgroppos location -->
+	  <!-- OR just ad dispatch insert under you vanilla proto's container section -->
+	  <!-- OR add vanilla section above my dispatch section to get the floor loot also -->
+	  
+	  
+	  
+		<group name="Land_Mil_Tent_Big3_GunRack" lootmax="25">
+				<usage name="Tent" />
+				<dispatch>
+				    <!-- Front Left -->
+					<proxy type="SVD" pos="0.735 -0.56 -4.0" rpy="90.0 0.0 275.0" />
+					<proxy type="SVD" pos="0.735 -0.56 -3.9" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.8" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.7" rpy="90.0 0.0 275.0" />
+					<!-- Front Right -->
+					<proxy type="Mp133Shotgun" pos="0.745 -0.56 -4.5" rpy="90.0 0.0 275.0" />
+					<proxy type="Saiga" pos="0.745 -0.56 -4.4" rpy="90.0 0.0 275.0" />
+					<proxy type="Izh43Shotgun" pos="0.745 -0.56 -4.3" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.2" rpy="90.0 0.0 275.0" />
+					<!-- Middle Left -->
+					<proxy type="AK101" pos="0.985 -0.56 -4.0" rpy="90.0 0.0 275.0" />
+					<proxy type="AK74" pos="0.985 -0.56 -3.9" rpy="90.0 0.0 275.0" />
+					<proxy type="AK74" pos="0.985 -0.56 -3.8" rpy="90.0 0.0 275.0" />
+					<proxy type="AKS74U" pos="0.985 -0.56 -3.7" rpy="90.0 0.0 275.0" />
+					<!-- Middle Right -->
+					<proxy type="SVD" pos="0.985 -0.56 -4.51" rpy="90.0 0.0 275.0" />
+					<proxy type="SVD" pos="0.985 -0.56 -4.41" rpy="90.0 0.0 275.0" />
+					<proxy type="AKM" pos="0.985 -0.56 -4.31" rpy="90.0 0.0 275.0" />
+					<proxy type="AKM" pos="0.985 -0.56 -4.21" rpy="90.0 0.0 275.0" />
+					<!-- Back Left -->
+					<proxy type="SKS" pos="1.255 -0.56 -4.01" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -3.91" rpy="90.0 0.0 275.0" />
+					<proxy type="ASVAL" pos="1.255 -0.56 -3.81" rpy="90.0 0.0 275.0" />
+					<proxy type="VSS" pos="1.255 -0.56 -3.71" rpy="90.0 0.0 275.0" />
+					<!-- Back Right -->
+					<proxy type="Mosin9130" pos="1.255 -0.56 -4.51" rpy="90.0 0.0 275.0" />
+					<proxy type="Winchester70" pos="1.255 -0.56 -4.41" rpy="90.0 0.0 275.0" />
+					<proxy type="B95" pos="1.255 -0.56 -4.31" rpy="90.0 0.0 275.0" />
+					<proxy type="Repeater" pos="1.255 -0.56 -4.21" rpy="90.0 0.0 275.0" />
+					
+				</dispatch>
+		</group>
+		                <!-- ----------< GG >---------- -->
+		
+		// -- 5.56 Edition
+		
+		
+		<group name="Land_Mil_Tent_Big3_GunRack" lootmax="25">
+				<usage name="Military" />
+				<dispatch>
+				    <!-- Front Left -->
+					<proxy type="M16A2" pos="0.735 -0.56 -4.0" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.9" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.8" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.7" rpy="90.0 0.0 275.0" />
+					<!-- Front Right -->
+					<proxy type="M16A2" pos="0.745 -0.56 -4.5" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.4" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.3" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.2" rpy="90.0 0.0 275.0" />
+					<!-- Middle Left -->
+					<proxy type="M16A2" pos="0.985 -0.56 -4.0" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.985 -0.56 -3.9" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.985 -0.56 -3.8" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.985 -0.56 -3.7" rpy="90.0 0.0 275.0" />
+					<!-- Middle Right -->
+					<proxy type="M16A2" pos="0.985 -0.56 -4.51" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.985 -0.56 -4.41" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.985 -0.56 -4.31" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.985 -0.56 -4.21" rpy="90.0 0.0 275.0" />
+					<!-- Back Left -->
+					<proxy type="M16A2" pos="1.255 -0.56 -4.01" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="1.255 -0.56 -3.91" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="1.255 -0.56 -3.81" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="1.255 -0.56 -3.71" rpy="90.0 0.0 275.0" />
+					<!-- Back Right -->
+					<proxy type="M16A2" pos="1.255 -0.56 -4.51" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="1.255 -0.56 -4.41" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="1.255 -0.56 -4.31" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="1.255 -0.56 -4.21" rpy="90.0 0.0 275.0" />
+					
+				</dispatch>
+		</group>
+	  
+	  
+	  
+	  <!-- ------------ ---------------< GG >------------ --------------- -->
+	  
+	  
+	  
+	  
+	  <!-- The Josie Garfunkle 5.56 Special -->
+	  
+	  // -- Yeah, Its gona lag, but fun for a slow walk through
+	  // -- just limit your loot max to get a constant variety
+	  
+       <!-- mapgrouppos.xml ADD Entry -->
+	
+	
+    <group name="Land_Mil_Tent_Big3_Josie" pos="4156.551758 339.580505 11059.474609" rpy="-0.000000 0.000000 -107.730186" a="-162.269806" />
+	  
+	  
+	  <!-- mapgroupproto.xml ADD Entry -->
+	  
+	  
+	
+		<group name="Land_Mil_Tent_Big3_Josie" lootmax="300">
+				<usage name="Military" />
+				<dispatch>
+				
+					<!-- Gun Rack -->
+				    <!-- Front Left -->
+					<proxy type="M16A2" pos="0.735 -0.56 -4.0" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.9" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.8" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.735 -0.56 -3.7" rpy="90.0 0.0 275.0" />
+					<!-- Front Right -->
+					<proxy type="M16A2" pos="0.745 -0.56 -4.5" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.4" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.3" rpy="90.0 0.0 275.0" />
+					<proxy type="M16A2" pos="0.745 -0.56 -4.2" rpy="90.0 0.0 275.0" />
+					<!-- Middle Left -->
+					<proxy type="M4A1" pos="0.985 -0.56 -4.0" rpy="90.0 0.0 275.0" />
+					<proxy type="M4A1" pos="0.985 -0.56 -3.9" rpy="90.0 0.0 275.0" />
+					<proxy type="M4A1" pos="0.985 -0.56 -3.8" rpy="90.0 0.0 275.0" />
+					<proxy type="M4A1" pos="0.985 -0.56 -3.7" rpy="90.0 0.0 275.0" />
+					<!-- Middle Right -->
+					<proxy type="M4A1" pos="0.985 -0.56 -4.51" rpy="90.0 0.0 275.0" />
+					<proxy type="M4A1" pos="0.985 -0.56 -4.41" rpy="90.0 0.0 275.0" />
+					<proxy type="M4A1" pos="0.985 -0.56 -4.31" rpy="90.0 0.0 275.0" />
+					<proxy type="M4A1" pos="0.985 -0.56 -4.21" rpy="90.0 0.0 275.0" />
+					<!-- Back Left -->
+					<proxy type="Scout" pos="1.255 -0.56 -4.01" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -3.91" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -3.81" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -3.71" rpy="90.0 0.0 275.0" />
+					<!-- Back Right -->
+					<proxy type="Scout" pos="1.255 -0.56 -4.51" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -4.41" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -4.31" rpy="90.0 0.0 275.0" />
+					<proxy type="Scout" pos="1.255 -0.56 -4.21" rpy="90.0 0.0 275.0" />
+					<!-- Chair beside Rack -->
+					<proxy type="M16A2" pos="1.85 -0.55 -3.49" rpy="82.0 0.0 276.0" />
+					<proxy type="Mich2001Helmet" pos="2.10 -0.47 -3.2" rpy="0.0 20.0 0.0" />
+					<proxy type="TacticalGloves_Beige" pos="2.30 -0.47 -3.0" rpy="0.0 20.0 0.0" />
+					
+					<!-- ----------< GG >---------- -->
+					
+					<!-- Walls -->
+					<!-- Clockwise starting with yellow bags -->
+					<proxy type="AssaultBag_Black" pos="-2.85 -0.18 5.65" rpy="0.0 270.0 0.0" /> 
+					<proxy type="AssaultBag_Black" pos="-3.25 -0.18 5.65" rpy="0.0 270.0 0.0" /> 
+					<proxy type="AssaultBag_Black" pos="-3.65 -0.18 5.65" rpy="0.0 270.0 0.0" /> 
+					<proxy type="AssaultBag_Black" pos="-4.05 -0.18 5.65" rpy="0.0 270.0 0.0" /> 
+					
+					<proxy type="DryBag_Black" pos="-2.68 -0.18 3.05" rpy="0.0 0.0 0.0" /> 
+					<proxy type="DryBag_Black" pos="-2.68 -0.18 2.65" rpy="0.0 0.0 0.0" /> 
+					<proxy type="DryBag_Black" pos="-2.68 -0.18 2.25" rpy="0.0 0.0 0.0" /> 
+					<proxy type="DryBag_Black" pos="-2.68 -0.18 1.85" rpy="0.0 0.0 0.0" /> 
+					<proxy type="DryBag_Black" pos="-2.68 -0.18 1.45" rpy="0.0 0.0 0.0" /> 
+					
+					<proxy type="AliceBag_Black" pos="-2.2 -0.15 0.65" rpy="0.0 270.0 0.0" /> 
+					<proxy type="AliceBag_Green" pos="-1.6 -0.15 0.65" rpy="0.0 270.0 0.0" /> 
+					
+					<proxy type="DryBag_Green" pos="3.5 -0.15 0.7" rpy="0.0 270.0 0.0" />  
+					<proxy type="DryBag_Green" pos="3.0 -0.15 0.7" rpy="0.0 270.0 0.0" />  
+					<proxy type="DryBag_Green" pos="2.5 -0.15 0.7" rpy="0.0 270.0 0.0" />  
+					<proxy type="DryBag_Green" pos="2.0 -0.15 0.7" rpy="0.0 270.0 0.0" />  
+					<proxy type="DryBag_Green" pos="1.5 -0.15 0.7" rpy="0.0 270.0 0.0" />  
+					
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 0.5" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 0.0" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -0.5" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -1.0" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -1.5" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -2.0" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -2.5" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -3.0" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -3.5" rpy="0.0 0.0 0.0" /> 
+					<proxy type="AssaultBag_Ttsko" pos="7.15 -0.22 -4.0" rpy="0.0 0.0 0.0" /> 
+					
+					<proxy type="DryBag_Green" pos="-7.70 -0.1 -3.5" rpy="0.0 180.0 0.0" />
+					<proxy type="DryBag_Green" pos="-7.70 -0.1 -2.8" rpy="0.0 180.0 0.0" />
+					<proxy type="DryBag_Green" pos="-7.70 -0.1 -1.0" rpy="0.0 180.0 0.0" />
+					<proxy type="DryBag_Green" pos="-7.70 -0.1 -0.5" rpy="0.0 180.0 0.0" />
+					<proxy type="DryBag_Green" pos="-7.70 -0.1 -0.0" rpy="0.0 180.0 0.0" />
+					
+					<proxy type="Scout" pos="-6.65 0.8 5.64" rpy="0.0 270.0 0.0" />
+					<proxy type="M16A2" pos="-7.00 0.6 5.64" rpy="0.0 270.0 0.0" /> 
+					<proxy type="M4A1" pos="-6.70 0.3 5.64" rpy="0.0 270.0 0.0" /> 
+					<proxy type="M16A2" pos="-7.08 0.0 5.64" rpy="0.0 270.0 0.0" />
+					<!-- ----------< GG >---------- -->
+					
+					<!-- Table 1 -->
+					
+					<proxy type="Scout" pos="-6.50 -0.55 -3.25" rpy="278.0 0.0 264.0" />
+					
+					<proxy type="M16A2" pos="-7.020 -0.19 -3.717" rpy="270.0 345.0 0.0" />
+					<proxy type="M4A1" pos="-7.305 -0.19 -2.6" rpy="90.0 192.0 0.0" />
+					
+					<proxy type="Mag_STANAGCoupled_30Rnd" pos="-7.386 -0.19 -3.205" rpy="90.0 15.0 0.0" />
+					
+					<proxy type="Mag_STANAG_60Rnd" pos="-6.961 -0.19 -3.562" rpy="90.0 12.0 0.0" />
+					<proxy type="Mag_STANAG_60Rnd" pos="-6.959 -0.19 -2.842" rpy="270.0 135.0 0.0" />
+					
+					<proxy type="Mag_STANAG_30Rnd" pos="-6.885 -0.19 -3.984" rpy="270.0 10.0 0.0" />
+					<proxy type="Mag_STANAG_30Rnd" pos="-7.414 -0.19 -3.555" rpy="90.0 15.0 0.0" />
+					
+					<proxy type="Mag_CMAG_30Rnd" pos="-6.846 -0.19 -2.349" rpy="90.0 -15.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="-7.219 -0.19 -3.058" rpy="270.0 10.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="-6.990 -0.19 -2.648" rpy="270.40 30.0 0.0" />
+					<proxy type="Mag_CMAG_30Rnd" pos="-7.361 -0.19 -3.769" rpy="90.0 220.0 0.0" />
+					
+					<proxy type="M4_Suppressor" pos="-6.908 -0.19 -3.458" rpy="90.0 20.0 0.0" />
+					<proxy type="M9A1_Bayonet" pos="-6.881 -0.19 -2.428" rpy="90.0 65.0 2.0" />
+					<proxy type="ACOGOptic_6x" pos="-7.276 -0.19 -3.910" rpy="90.0 0.0 0.0" />
+					<proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-7.183 -0.19 -2.832" rpy="90.0 0.0 0.0" />
+					<proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-6.832 -0.19 -2.576" rpy="90.0 0.0 0.0" />
+					<proxy type="Ammo_556x45Tracer" pos="-6.945 -0.19 -2.550" rpy="0.0 40.0 0.0" />
+					<proxy type="Ammo_12gaPellets" pos="-6.836 -0.19 -2.935" rpy="0.0 60.0 0.0" />
+					<proxy type="CombatKnife" pos="-7.011 -0.19 -3.321" rpy="92.0 12.0 0.0" />
+					<!-- ----------< GG >---------- -->
+					
+					<!-- Boxes -->
+					
+					<proxy type="M16A2" pos="-2.265 -0.110 -4.204" rpy="90.0 116.0 0.0" />
+					<proxy type="M4A1" pos="-1.174 -0.110 -4.021" rpy="270.0 215.0 0.0" />
+					
+					<proxy type="Mag_STANAGCoupled_30Rnd" pos="-1.067 -0.110 -3.768" rpy="90.0 112.0 0.0" />
+					<proxy type="Mag_STANAG_60Rnd" pos="-2.310 -0.110 -3.725" rpy="90.0 30.0 0.0" />
+					<proxy type="Mag_STANAG_60Rnd" pos="-0.835 -0.110 -4.290" rpy="90.0 50.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="-2.087 -0.110 -3.812" rpy="90.0 210.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="-1.443 -0.110 -4.358" rpy="90.0 120.0 0.0" />
+					<proxy type="ACOGOptic_6x" pos="-1.509 -0.110 -3.849" rpy="90.0 65.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="-0.052 -0.110 -4.674" rpy="90.0 160.0 0.0" />
+					<proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.550 -0.110 -3.899" rpy="90.0 85.0 0.0" />
+					<proxy type="Battery9V" pos="-2.266 -0.110 -4.080" rpy="0.0 110.0 0.0" />
+					<proxy type="Ammo_556x45Tracer" pos="-2.646 -0.110 -4.025" rpy="0.0 210.0 0.0" />
+					<proxy type="ACOGOptic" pos="-1.182 -0.110 -3.706" rpy="270.0 310.0 0.0" />
+					<proxy type="Ammo_556x45" pos="-1.615 -0.110 -3.935" rpy="0.0 210.0 0.0" />
+					<proxy type="ACOGOptic_6x" pos="-1.175 -0.110 -4.405" rpy="90.0 110.0 0.0" />
+					<proxy type="Ammo_556x45" pos="-1.467 -0.110 -4.044" rpy="0.0 135.0 0.0" />
+					<proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-2.025 -0.110 -4.313" rpy="90.0 15.0 0.0" />
+					<proxy type="M68Optic" pos="-1.575 -0.110 -4.092" rpy="90.0 357.0 0.0" />
+					<proxy type="AmmoBox_556x45_20Rnd" pos="-1.215 -0.110 -3.713" rpy="90.0 140.0 0.0" />
+					
+					<!-- ----------< GG >---------- -->
+					
+					<!-- Table 2 -->
+					
+					<proxy type="Scout" pos="0.191 -0.19 0.621" rpy="90.0 273.0 0.0" />
+					<proxy type="M4A1" pos="-0.905 -0.19 0.519" rpy="270.0 68.0 0.0" />
+					
+					<proxy type="ACOGOptic_6x" pos="0.212 -0.19 0.460" rpy="90.0 220.0 0.0" />
+					<proxy type="Mag_Scout_5Rnd" pos="-0.731 -0.19 0.320" rpy="90.0 130.0 0.0" />
+					<proxy type="Mag_Scout_5Rnd" pos="-1.066 -0.19 0.767" rpy="90.0 20.0 0.0" />
+					<proxy type="Mag_STANAG_30Rnd" pos="-1.150 -0.19 0.618" rpy="90.0 60.0 0.0" />
+					<proxy type="Mag_Scout_5Rnd" pos="-0.426 -0.19 0.237" rpy="90.0 40.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="0.012 -0.19 0.549" rpy="90.0 110.0 0.0" />
+					<proxy type="Mag_Scout_5Rnd" pos="0.522 -0.19 0.677" rpy="90.0 120.0 0.0" />
+					<proxy type="Mag_CMAG_40Rnd" pos="0.384 -0.19 0.247" rpy="90.0 80.0 0.0" />
+					<proxy type="M9A1_Bayonet" pos="-0.378 -0.19 0.718" rpy="90.0 10.0 0.0" />
+					<proxy type="M4_Suppressor" pos="-0.111 -0.19 0.286" rpy="90.0 220.0 0.0" />					
+				</dispatch>
+		</group>
+
+					
+					<!-- ----------< GG >---------- -->
+					<!-- -------< Good Game >------ -->

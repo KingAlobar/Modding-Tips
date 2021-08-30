@@ -1,0 +1,175 @@
+****** INSTALL NOTES ******
+Make sure to back up any files you are editing!
+
+Add a stocked bar anywhere you want on your map!
+WORKS ON BOTH MAPS
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+This will add Vodka, Beer, Pipsi, Chips, Salty sticks and a shotgun to a bar of you choice, or all of them if you like.
+
+****************************************
+<!-- cfglimitsdefinition.xml  New Entry -->
+
+	-- Add under categories --
+	<category name="bar"/>
+
+	-- Add under usage --
+	<usage name="Bar"/>
+<!-- types.xml  Replace Entry -->
+
+	<type name="Vodka">
+        <nominal>9</nominal>
+        <lifetime>28000</lifetime>
+        <restock>0</restock>
+        <min>9</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="bar"/>
+        <usage name="Bar"/>
+    </type>
+	
+	<type name="SodaCan_Kvass">
+        <nominal>9</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>9</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="bar"/>
+        <usage name="Bar"/>
+    </type>
+	
+	<type name="SodaCan_Pipsi">
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="bar"/>
+        <usage name="Bar"/>
+    </type>
+	
+    <type name="SaltySticks">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="bar"/>
+        <usage name="Bar"/>
+    </type>
+	
+    <type name="Chips">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="bar"/>
+        <usage name="Bar"/>
+    </type>
+
+ <type name="SawedoffIzh43Shotgun">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="bar"/>
+	<category name="Bar"/>
+    </type>
+	
+<!-- mapgrouppos.xml Replace Entry -->
+
+<group name="Land_Bar" pos="11053.101563 226.815567 12388.920898" rpy="-0.000000 0.000000 31.064276" a="58.935719" />
+
+!!! Coordinates need to be replaced with the ónes for the bar you want to use, this example is for krasnostav !!!
+
+
+<!-- mapgroupproto.xml New Entry  -->
+
+<group name="Land_Bar" lootmax="45">
+				<usage name="Bar" />
+				<container name="lootFloor" lootmax="45">
+						<category name="mymap"/>
+				</container>
+				<dispatch>
+					<proxy type="Izh43Shotgun" pos="-1.494258 -0.727623 -5.516094" rpy="0.0 0.0 0.0" />
+				
+					<proxy type="Vodka" pos="-1.514258 -1.027623 -4.516094" rpy="0.0 90.0 0.0" />
+					<proxy type="Vodka" pos="-1.514258 -1.027623 -4.716094" rpy="0.0 90.0 0.0" />
+					<proxy type="Vodka" pos="-1.514258 -1.027623 -4.916094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="Vodka" pos="-1.54258 -1.377623 -4.516094" rpy="0.0 90.0 0.0" />
+					<proxy type="Vodka" pos="-1.54258 -1.377623 -4.716094" rpy="0.0 90.0 0.0" />
+					<proxy type="Vodka" pos="-1.54258 -1.377623 -4.916094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="Vodka" pos="-1.514258 -1.777623 -4.516094" rpy="0.0 90.0 0.0" />
+					<proxy type="Vodka" pos="-1.514258 -1.777623 -4.716094" rpy="0.0 90.0 0.0" />
+					<proxy type="Vodka" pos="-1.514258 -1.777623 -4.916094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="SodaCan_Kvass" pos="-1.514258 -1.817623 -5.116094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Kvass" pos="-1.54258 -1.427623 -5.116094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Kvass" pos="-1.514258 -1.094623 -5.116094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="SodaCan_Kvass" pos="-1.514258 -1.827623 -5.316094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Kvass" pos="-1.54258 -1.427623 -5.316094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Kvass" pos="-1.514258 -1.094623 -5.316094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="SodaCan_Kvass" pos="-1.514258 -1.817623 -5.516094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Kvass" pos="-1.54258 -1.427623 -5.516094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Kvass" pos="-1.514258 -1.094623 -5.516094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.716094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.736094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.756094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.776094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.796094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.816094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.836094" rpy="0.0 90.0 0.0" />
+					<proxy type="SaltySticks" pos="-1.514258 -1.817623 -5.856094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.716094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.736094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.756094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.776094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.796094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.816094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.836094" rpy="0.0 90.0 0.0" />
+					<proxy type="Chips" pos="-1.54258 -1.417623 -5.856094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="SodaCan_Pipsi" pos="-2.214258 -1.894623 -4.316094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Pipsi" pos="-2.214258 -1.894623 -4.116094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Pipsi" pos="-2.214258 -1.894623 -3.916094" rpy="0.0 90.0 0.0" />
+					<proxy type="SodaCan_Pipsi" pos="-2.214258 -1.894623 -3.716094" rpy="0.0 90.0 0.0" />
+					
+					<proxy type="Land_Misc_Well_Pump_Blue" pos="-2.514258 -1.994623 -4.416094" rpy="0.0 0.0 0.0" />
+				</dispatch>
+		</group>
+
+
+****************************************    
+Org File Created by Lektarg For more help files for DayZ come visit us at http://bhaalshad.com 
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :) 
